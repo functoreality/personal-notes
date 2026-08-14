@@ -1,12 +1,15 @@
-# Personal Notes
+# 我的个人笔记
 
-这里将公开我关于 AI 使用、时间管理及相关主题的笔记。
+这个仓库公开了我的通用领域笔记，主题相对比较宽泛，比如 AI 使用、时间管理、抽认卡设计，等等。
+网页浏览请看 [GitHub Pages](https://functoreality.github.io/personal-notes/)。
 
-网页阅读器由
-[`functoreality/research-notes`](https://github.com/functoreality/research-notes)
-中的共享代码构建。本仓库只保存笔记内容、主页、站点配置和部署入口。
+license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 
-## 内容结构
+## 仓库结构
+
+网页阅读器使用
+[我的科研笔记](https://github.com/functoreality/research-notes)
+里的共享代码构建。这个仓库只保存笔记内容、主页、站点配置和部署入口。
 
 ```text
 personal-notes/
@@ -49,3 +52,15 @@ npm run site -- dev personal-notes
 共享阅读器使用 `research-notes` 的 `main` 分支。阅读器更新不会自动触发
 本仓库重新部署。更新阅读器后，可以在本仓库 Actions 页面手动运行一次
 “Deploy to GitHub Pages”，或者随下一次笔记提交一起部署。
+
+## AI 查阅
+
+笔记 Markdown 文件使用 tab 缩进表示层级，多层嵌套以后，已不适合使用普通 read 工具阅读。
+可以考虑安装 outline-read skill 作为辅助，使得 AI 查看时可以按层级折叠展开，更高效地浏览笔记内容。
+如果采用自动安装模式，可以使用如下的命令：
+
+```bash
+npx skills add functoreality/research-notes --skill outline-read
+```
+
+自己手动下载安装相应的 skill 文件目录当然也是可以的。
