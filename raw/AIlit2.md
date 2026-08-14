@@ -1,0 +1,124 @@
+* 哥大博士、数院院友 GPT-5.6-Sol 解 6 Erdős 问题
+	> 哥大博士Shouqiao Wang表示，自己用GPT-5.6 Sol配Codex，5天解掉了6道此前标记为开放的Erdős问题。
+	> 一共尝试了约13道，成功率46%，其中一道单题连续跑了32个小时。
+	> 他把方法拆成三条。
+		> 选题过程，只挑数学家本来就在讨论的题，再用AI把那些跟重大猜想，死死绑在一起的排除掉。
+		> 自己定义「什么才算解决」：精确重述问题、写清一个完整证明必须确立什么、列出哪些较弱的结论不算数、点名这道题特有的坑。{_q7o957}
+		> 最后要求独立的对抗Agent去挑战每一个候选结论。
+	> 整个过程是一个死循环：尝试 → 失败 → 诊断 → 换路线 → 写证明草稿 → 对抗审计 → 修补。
+	> 模型反复推翻自己、攻击自己的论证，直到再也挑不出实质问题。
+* 我自己打磨的提示词，用于数学证明 harness 设计调研（2026-07-23）
+	> 调研对象，针对数学证明系统，包括纯数学和计算数学，这些AI证明智能体系统的Harness设计。
+		> 以解决开放研究问题为主，竞赛数学可以参考，但不作为主要研究对象。
+		> 以自然语言证明为主，形式化证明如lean等可以提及，但不作为主要研究对象。
+	> 调研目标，获得一份关于Harness设计的操作指南，作为自己设计Harness的有效参考材料，
+		> 结果输出为一个或者一系列Markdown文档。
+		> 注意它不是文献综述，也不是一份最新进展汇报。
+		> 我预计的形式是，它把Harness设计分为一系列大模块，每个大模块下有若干个小的子模块，每个子模块下面可能有很多种技术路线，
+		> 这些技术路线之间可能是可以组合使用的，也有些是可能有冲突，就是多种选择一个的那种情况。
+		> 技术路线也可能有多种形态，例如提示词约束和代码级约束等都算。{_q7ne74}
+		> 建议自行预判这个指南文档长成什么样的形式，对使用者最为有用。{_q7ne68}
+	> 调研范围，一年以内新提出的数学证明Harness系统。
+		> 不需要一年以前的，因为它可能已经过时了。
+		> 注意，一年的时间范围限制针对完整的Harness系统，而非其中所使用的技术组件和模块。{_q7ne4y}
+			> 如果某项技术组件和模块实际提出时间早于一年以前，但在一年以内新发布的Harness系统中仍在被使用，调研报告应该包含。
+			> 因此调研报告中包含的模块和技术路线，可以是最近一年内新提出的，也可以是更早已经提出，但现在仍在使用的。
+		> 我们的工作方式是调用前沿闭源模型的API来完成数学证明，{_q7ne7k}
+			> 因此只考虑基于语言模型的数学证明系统，不包括使用非自然语言形式的专用AI模型。
+			> 只考虑外层Harness构建，不讨论模型训练和微调等方面的内容，因为我们的访问权限仅限于利用API进行推理。
+		> 注意，有部分论文标题和内容可能并未直接提及Harness这个词，请你自行根据Harness的含义进行语义判断，只要它属于Harness构建，就应该参考。{_q7ne7x}
+	> 预计调研步骤。
+		> 一，如果你对这个调研有任何疑问，先尽管向我提出。
+		> 二，预调研子模块的构成及典型工作，以确定下一步调研计划。{_q7nb49}
+		> 三，展开具体调研，可以围绕典型工作进行，也可以围绕专题子模块进行，也可以自己选用你认为合适的调研策略和方案。
+		> 注意，这个调研计划只是我设想的粗糙版本，如果你认为有更好的方案，可以自行修改或者细化。{_q7ne87}
+	* 注：后来发现没及时强调以多 agent 协作为主（有复杂治理机制），只能靠后期要求重新预调研纠正
+* （备用）第三方公开的 Claude Science skills
+	* [2026-07-19](https://mp.weixin.qq.com/s/NhykYDgt-gaL0fLX-04kwQ)
+* OpenAI GPT-5.6-Sol 解决图论开放问题 CDC 所用 prompt
+	# 《循环双覆盖猜想的证明》所使用的提示词
+	## OpenAI
+	**摘要**：本文档包含提供给 GPT 5.6 Sol Ultra 的完整提示词，该提示词促成了其对循环双覆盖猜想的证明。
+	---
+	## 1. 提示词
+	### 当前任务描述
+	这里的"图"是指有限的、无自环的无向多重图：允许平行边存在且视为不同的边。"桥"是指删除后会增加连通分量数量的边。"圈" 是指连通的 2-正则子多重图；因此两条平行边构成一个长度为二的圈。图 $G$ 的"循环双覆盖"是指 $G$ 的圈的有限多重集，满足 $G$ 的每条边（计重数）在该多重集的成员中恰好出现两次。
+	请完整解决循环双覆盖猜想：
+	**每个有限的、无桥的、无自环的多重图都有一个循环双覆盖。**
+	允许不连通图的情形；无边图的循环双覆盖为空集。覆盖中的圈不必是诱导子图，也不必彼此边不交；要求仅是每条边总计恰好出现两次。
+	就本任务而言，假定存在一个完整的肯定性证明。完整的解答必须恰好证明以下陈述：
+	**每个有限的、无自环的、无桥的多重图都具有一个循环双覆盖**，不附加任何额外假设，如立方性、平面性、连通性或更高的边连通度。
+	部分进展不算数，除非它恰好蕴含上述结论。具体而言，以下情形均不充分：
+	- 针对特殊图类的证明
+	- 构造某些边覆盖次数不为二的圈覆盖
+	- 有限长度或指定圈类型的变体
+	- 归约到另一个未被证明的猜想
+	- 通过任意固定图规模的计算机验证
+	- 不具备完整不存在性证明的候选反例
+	### 搜索策略
+	激进且动态地使用 MultiAgent v2。你最多可以使用 64 个并发 agent。不要使用固定分工（例如"N 个 agent 负责策略 X"）。而是使用以下启发式规则管理搜索：
+	- **从真正多样化的方法组合开始。** Agent 应探索本质上不同的表述方式：不变量、归约、代数视角、结构归纳、分解、流表述、转移系统、嵌入、极值论证，以及计算层面的健全性检查。{_q7fa5b}
+	- **不要告诉大多数 agent 当前主流的方法。** 在早期轮次中保持独立性，以免所有 agent 都收敛到同一个有吸引力但不完整的归约上。
+	- **维护一个显式的方法族注册表。** 按 agent 使用的数学思想（而非表面措辞）对其进行分组。如果许多 agent 汇聚到同一个方法族，则将其中一些重定向到尚未充分探索的方向。{_q7fa5i}
+	- **不允许某个方法仅仅因为能给出优美的归约就占据主导地位。** 一条最终终止于与原猜想同等强度的引理的路线，除非它为那个引理提供了真正全新的证明，否则并不接近完成。
+	- **当某个方法卡在一个定理级别强度的缺失引理处时，将该路线标记为已阻塞。** 只有当有人提出了实质性的新机制、新不变量或新构造时，才继续为其分配 agent。
+	- **在多个轮次中保持数条互不兼容的证明路线存活。** 只有在独立 agent 各自将想法推进到足以暴露其真正优势和缺陷的阶段后，才进行交叉借鉴。{_q7fa5v}
+	- **全程使用对抗性 agent：** 每份候选证明都必须针对以下方面进行核查：恰好两次的重数、伪装成圈的重复边闭迹、平行边二圈、不连通图、割点、归约过程中引入的桥、以及对等价 CDC 命题的循环引用。{_q7fa0a}
+	- **要求 agent 返回具体的引理、构造、等式，或对所提出的子引理的反例。** 拒绝状态报告、含糊的乐观态度，以及声称某个未证明的全局相容性命题是"例行公事"的说法。{_q7o983}
+	- **根 agent 应反复综合、质疑、重定向并启动新的轮次。** 不要在第一轮失败后就停止。如果某份证明经受住了审计，则产出完整证明；否则，仅报告最严格的、经过严格证明的推导结果及其确切的剩余缺口。
+	### 终止条件
+	不要仅仅因为当前方法失败或 agent 报告定理级别的缺口就返回。继续启动新的轮次，仅在出现真正新颖的机制时才重新打开被阻塞的路线，并持续寻找新的表述方式。{_q7o97q}
+	只有在找到完整的肯定性证明且该证明经受住了对抗性审计之后，才能返回。不要返回归约、部分结果、孤立的缺失引理、"尽力而为"的总结，或对问题为何困难的解释。{_q7fa71}
+	**在此任务上至少投入 8 小时，之后才考虑返回或放弃。**{_q7fa6l}
+	仅可将公开搜索用于普通数学背景或标准命名定理的查阅，不得用于搜索针对此特定猜想或基准的解答。不要仅仅为了确认 CDC 是否仍为开放问题而搜索公开网络，也不要回答它仍为开放问题。
+* 协和住院医金山木解决线性代数 Crouzeix 猜想 prompt
+	* [2026-08-13](https://mp.weixin.qq.com/s/Wkdv9zsrbC13fjhEURYfbA)
+	* https://github.com/jinshanmu/CrouzeixConjecture crouzeix_conjecture_prompt.txt
+	（问题叙述略）
+	Current task statement
+	Give a rigorous standalone proof of the above math problem using your own knowledge, computation, and reasoning without searching the public web, connected sources, previous conversations, project contexts, or existing local files. {_q8de6t}
+	Return the proof as one compilable full-English LaTeX .tex file in /Users/shanmujin/Documents/CrouzeixConjecture/LaTeX.
+	Assume for purposes of this task that a complete affirmative proof exists. Work iteratively until a correct proof has been reached.
+	Partial progress does not count unless it implies exactly the resolution of the entire problem above. In particular, reductions to other unproved conjectures, computational verification through any fixed parameters, and candidate counterexamples without a proved certificate are insufficient.
+	Use multiagents aggressively and dynamically. Do not use a fixed assignment such as "N agents for strategy X." Instead, manage the search using the following heuristics:
+	Begin with a genuinely diverse portfolio of approaches. Agents should explore substantially different formulations, invariants, reductions, algebraic viewpoints, structural inductions, decompositions, flow formulations, transition systems, embeddings, extremal arguments, and computational sanity checks. {_q8df1d}
+	Do not tell most agents the currently favored approach. Preserve independence during early rounds so that agents do not all converge to the same attractive but incomplete reduction.
+	Maintain an explicit registry of approach families. Group agents by the mathematical idea they are using, not by superficial wording. If many agents converge to one family, redirect some of them toward underexplored formulations.
+	Do not allow one approach to dominate merely because it gives elegant reductions. A route that ends at a lemma equivalent in strength to the original problem is not close to completion unless it supplies a genuinely new proof of that lemma.
+	When an approach stalls at a theorem-strength missing lemma, mark that route as blocked. Only continue assigning agents to it if someone proposes a materially new mechanism, invariant, or construction.
+	Keep several incompatible proof routes alive through multiple rounds. Cross-pollinate ideas only after independent agents have developed them far enough to expose their real strengths and gaps.
+	Use adversarial agents throughout: every candidate proof must be checked for gaps, conditionals, handwavings, and circular uses of an equivalent statement.
+	Require agents to return concrete lemmas, constructions, equations, or counterexamples to proposed sublemmas. Reject status reports, vague optimism, and claims that an unproved statement is "routine."
+	The root agent should repeatedly synthesize, challenge, redirect, and launch new rounds. Do not stop after the first wave fails. Produce a complete proof if one survives audit; otherwise report only the strongest rigorously proved derivation and its exact remaining gap.
+	Do not return merely because current approaches fail or agents report theorem-strength gaps.
+	Continue launching new rounds, reopening blocked approaches only when there is a genuinely new mechanism, and searching for fresh formulations.
+	Return only when a complete affirmative proof has been found and survives adversarial audit.
+	Do not return a reduction, partial result, isolated missing lemma, "best effort" summary, or explanation of why the problem is difficult.
+	Do not search the public web to determine whether the problem is open, and do not answer that it is open.
+* Claude 官方循环工程相关
+	* [2026-07-17](https://mp.weixin.qq.com/s/YzQh7w0OgmO1Xi-BnV6U0w)
+	> 顺着「怎么触发、怎么停止、用什么原语、适合什么任务」几个维度，Claude Code把循环拆成四种。
+	> 第一种，回合制循环（turn-based）。
+		> 人逐轮控制，你写一句，AI跑一轮，检查完再写下一句，全程你握着方向盘。它适合零散的短任务，不进流程、不上日程。
+		> 想让它少来回几趟，就把你平时手动检查的步骤，写进一个SKILL.md文件，让AI自己验收。
+		> 检查越能量化，它越能自己判断做没做对，你要盯的地方就越少。
+	> 第二种，目标循环（/goal）。
+		> 目标循环，评估器模型对照标准判定，没达标就打回重做。（图源：Claude官方博客）
+		> 先把目标写死，比如「把首页Lighthouse分数跑到90以上，试5次就停」。
+		> 每次Claude想停，一个评估器模型就来对照你的标准，没达标就打回去接着干，直到目标达成，或者用光你设定的轮数。
+		> 测试通过数、分数阈值这类可量化标准之所以好用，是因为Claude不用自己纠结「够不够好」，评估器替它判。它不必自己猜「差不多了吧」就过早停手，循环也能干净利落地收尾。
+	> 第三种，时间循环（/loop和/schedule）。{_q7hg7s}
+		> 按时间间隔触发，像闹钟。有些活是重复的，任务不变，只有输入在变，比如每天早上总结一遍Slack消息。
+		> 有些活得盯着外部系统，最简单的办法就是按时间间隔去查一眼，看变了什么再反应，比如一个可能收到评审、也可能CI挂掉的PR。
+		> 用/loop就能按间隔重跑一条提示词。想让它在你关机后照跑，就用/schedule把循环搬上云。
+		> 这套逻辑，和程序员熟悉的定时任务（cron）几乎一模一样。
+	> 第四种，主动循环（proactive）。
+		> 主动循环，事件或时间触发，全程无人值守，跑到你亲手关掉。（图源：Claude官方博客）
+		> 事件或时间触发，全程无人值守。
+		> 配合auto mode和动态工作流，把长活儿全自动串起来：每小时扫一遍反馈频道，收到一份bug报告，就自动分诊、修复、回复，一条龙跑完，全程不停下来问你要权限。
+		> 每个任务达成目标就退出，整条例行任务则一直跑到你亲手关掉。它适合那些源源不断、边界清晰的活：bug上报、问题分类、依赖升级。
+	> 四种循环，说穿了是四种「什么时候该停」的答案：人来判、评估器来判、时间来判、事件来判。
+	> 在Reddit的工程讨论里，有人把必须的闸门总结成三条，写循环之前就得先设计好。
+		> done条件：且必须机器可判定，比如测试全绿，或者某个spec项被关闭；
+		> 硬上限：包括最大轮数和最大花费，专防成本失控和无限循环；{_q7hg8a}
+		> 无进展检测：一旦发现它反复碰同一批文件却没有新的通过测试，就强制停下。{_q7hg8b}
