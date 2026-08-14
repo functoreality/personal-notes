@@ -1,0 +1,10 @@
+{
+  "title": "Personal Notes",
+  "description": "Personal notes about AI use, time management, and related topics",
+  "site": "https://functoreality.github.io",
+  "base": "/personal-notes",
+  "lang": "zh-CN",
+  "siteName": "personal-notes",
+  "loadingHint": "首次打开需要下载笔记数据，请稍等一会儿。",
+  "visitorLabel": "这份个人笔记"
+}
