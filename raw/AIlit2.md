@@ -1,3 +1,30 @@
+* Claude Science 设计哲学
+	* [2026-08-22](https://mp.weixin.qq.com/s/W9ZE3KL-VGXC8j8WXLs1Uw)
+	> 如果只能用一句话说清 Claude Science 的设计哲学，那就是：
+		> 把 agent 当成一个需要被「校准」的科学仪器，而不是一个需要被「命令」的下属——
+		> 每一个约束都附带它的测量依据和适用边界，让模型理解「为什么」，从而在边界之外自行判断。
+	> 这句话里的三个词是全篇的骨架：
+		> 1. 校准（calibration） —— 配置项不是拍脑袋的偏好，而是针对实测瓶颈的调优。
+		> 2. 理解而非命令（understanding over instruction） —— prompt 反复强调「解释为什么」，明确把「ALWAYS / NEVER 全大写」列为黄旗。
+		> 3. 边界（boundary） —— 每条规则都写清它在哪里生效、哪里失效、遇到例外怎么办。reviewer 的 rubric 是这一点的极致体现。
+	> 既然模型能理解「为什么」，那么最有效的控制方式不是堆砌禁令，而是传递意图和证据。
+		> 这是 Claude Science 与大多数「用 MUST 和 NEVER 把模型捆死」的 agent 系统最根本的分野，也是这份分析真正想让你带走的东西。{_q8mk4m}
+	> 1. "产出物是主角，不是聊天"（Artifact-first）{_q8mk4g}
+	> 6. 懒加载 + 主动发现（Progressive disclosure）
+		> skill 不是全部塞进上下文，而是 harness 在 <skill_discovery> 块里按当前任务主动浮现相关 skill，模型按需 skill 工具加载。{_q8mk4y}
+		> 29 个 skill、~90 个数据源不污染上下文，用时才展开。
+		> 规模化能力与上下文经济的平衡。
+* （备用）Anthropic 入职培训资料公开，Claude 学院
+	* [2026-08-22](https://mp.weixin.qq.com/s/DQOcl1GKeq1d_w64QzmxPQ)
+	> 新人在onboarding培训阶段要学三样东西：
+		> 4D AI Fluency框架
+		> 管理智能体“知道什么”的最佳实践
+		> AI的指数曲线跑得有多快。
+	> 4D指的是委派、描述、辨别和尽责（Delegation, Description, Discernment, and Diligence），
+		* （评）和一堂双三角对应：委派→ 场景，描述→ 体系+数据+基本功，辨别→ 审美；勤勉（怀疑“尽责”翻译不准）似乎更像刻意练习的大量重复？
+		> 由瑞林艺术与设计学院的Rick Dakan教授和科克大学的Joseph Feller教授开发，
+		> 来自他们对AI工具如何改变创意与商业流程的研究，
+		> Anthropic和两位教授合作把它做成了课程
 * 指令文档已有内容不敢轻易删，导致长期长度膨胀；建议各内容标明添加动因
 	* [2026-08-17](https://mp.weixin.qq.com/s/hYC12o7LnPgSFuhjOAxpeQ)
 	> 把这种现象称为“灾难性留存”，
