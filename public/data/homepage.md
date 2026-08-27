@@ -15,7 +15,7 @@
 这些是我的核心主笔记。当我希望寻找某些信息，或者在现实世界中解决某些问题的时候，
 我往往会打开一个相关主题的笔记文件，从里面取出我所需要的内容。
 
-* useAI useAI2 timeMgr
+* useAI useAI2 timeMgr srs
 
 ## 文献笔记
 
@@ -23,6 +23,6 @@
 
 理论上，对于里面最有价值的内容，我都已经想办法整合进了主笔记当中。
 
-* AIlit2 AIlit
+* AIlit2 AIlit WorkFlow_lit
 
 license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
