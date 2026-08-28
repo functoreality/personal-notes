@@ -25,4 +25,20 @@
 
 * AIlit2 AIlit WorkFlow_lit
 
+## 间隔重复抽认卡
+
+这些是我的抽认卡片。一般情况下，它们不是用来重读的，而是用来看着正面回忆背面的。
+
+配上基于间隔重复算法的复习计划，它们能帮助我把一些东西稳定地保存在长期记忆当中。
+
+保持这些记忆的成本其实不高：对于其中的每个记忆点，除开少数特别复杂的情况以外，
+我预计未来 20 年内它占用的总复习时间不会超过 10 分钟。
+
+* srs-mathPhy srs-math2
+* srs-probability srs-hdp srs-smcm
+* srs-intro2fluid srs-cfd
+* srs-Marsden-intro2mechSym srs-elasticFound-Marsden
+* srs-ml srs-tech srs-lean
+* srs-words srs-words2 srs-words3
+
 license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
