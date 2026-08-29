@@ -23,7 +23,7 @@
 
 理论上，对于里面最有价值的内容，我都已经想办法整合进了主笔记当中。
 
-* AIlit2 AIlit WorkFlow_lit
+* AIlit2 AIlit SRSlit WorkFlow_lit
 
 ## 间隔重复抽认卡
 
