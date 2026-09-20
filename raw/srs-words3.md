@@ -317,3 +317,7 @@ x}# 英语单词 part 3
 * maintain 名词形式{q8qn5b}
 	* maintenance
 	* 注意不是 ai 而是 e
+* 单词读音：coalesce{q9kf4u}
+	* /ˌkəʊəˈles/
+* 单词含义（计算机）：coalesce{q9kf4w}
+	* 空值合并函数
