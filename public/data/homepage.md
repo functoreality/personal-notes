@@ -16,6 +16,7 @@
 我往往会打开一个相关主题的笔记文件，从里面取出我所需要的内容。
 
 * useAI useAI2 timeMgr srs
+* triz trizAnalysis findMeth
 
 ## 文献笔记
 
@@ -23,7 +24,7 @@
 
 理论上，对于里面最有价值的内容，我都已经想办法整合进了主笔记当中。
 
-* AIlit2 AIlit SRSlit WorkFlow_lit
+* AIlit2 AIlit SRSlit WorkFlowLit TRIZlit
 
 ## 间隔重复抽认卡
 
@@ -38,7 +39,7 @@
 * srs-probability srs-hdp srs-smcm
 * srs-intro2fluid srs-cfd
 * srs-Marsden-intro2mechSym srs-elasticFound-Marsden
-* srs-ml srs-tech srs-lean
+* srs-ml srs-tech srs-python srs-lean
 * srs-words srs-words2 srs-words3
 
 license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
