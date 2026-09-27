@@ -98,7 +98,7 @@ x}# ML 相关内容
 	> 设定：二表征网络为 f: S → ℝⁿ，g: S → ℝᵐ
 	> 设定：XXᵀ,YYᵀ 为二者的样本对相似度矩阵，X = [f(s₁),…,f(sₖ)]ᵀ 
 	* ⟨XXᵀ,YYᵀ⟩ = tr(XXᵀYYᵀ) = tr(YᵀX(YᵀX)ᵀ) = ‖YᵀX‖²_F
-* {old}# （制卡时改写）二表征网络 相似度计算涉及 YᵀX，在什么意义下可以解读为 Cov(f,g)
+> （已停用{old}）（制卡时改写）二表征网络 相似度计算涉及 YᵀX，在什么意义下可以解读为 Cov(f,g)
 	> 设定：二表征网络为 f: S → ℝⁿ，g: S → ℝᵐ，X = [f(s₁),…,f(sₖ)]ᵀ
 	* 复合 S 上概率分布（即数据分布），从而 f,g 可视为向量值随机变量
 	* YᵀX/k ≈ 𝔼ₛf⊗g 为 k-样本的 empirical mean
@@ -239,7 +239,7 @@ x}# ML 相关内容
 	* loss 梯度流 ∇ᵤl(u) = Lu·∂ᵤL + (u - uₙ)/τ²
 	* Jacobian ∂ᵤL 特征值没有受到直接影响
 	* 更具体地：1/τ² 引入时的权重是 (u - uₙ)，而权重是 Lu 时才能叠加到 ∂ᵤL 上
-* # TSONN 设定，Jacobian ∂ᵤL 特征值为何均 ≤ 0{q51l8b}
+> （已停用）TSONN 设定，Jacobian ∂ᵤL 特征值为何均 ≤ 0{q51l8b}
 	> 背景：作为 PINN 改进，原始待解问题为 Lu = 0
 	* 物理背景，本来就只需求含时系统 uₜ = Lu 在 t → ∞ 的极限稳态解
 	* Jacobian 特征值 > 0 对应方程 Lu = 0 的不稳定平衡点，微扰后系统演化会偏离，通常不对应 t → ∞ 的解
@@ -263,7 +263,7 @@ x}# ML 相关内容
 	* 对样本集算均值、协方差
 	* 数据集、生成样例集 分别算均值、协方差，求其距离
 	* [src](https://zhuanlan.zhihu.com/p/432965561)
-* {old}# 图像生成 FID 指标计算公式，两个正态分布距离定义为
+> （已停用{old}）图像生成 FID 指标计算公式，两个正态分布距离定义为
 	* 公式 FID = ‖μ' - μ‖² + tr(Σ' + Σ - 2√{Σ'Σ})
 	* 2026-06-27 重构
 * FID = ‖μ' - μ‖² + [?]{q54a4a}
@@ -574,7 +574,7 @@ x}# ML 相关内容
 		* 注意不是用普通线性映射 1 + βx，因需保证非负
 		* 注：括号内 1+ 可并入待定偏置常数 λ 故在 Entmax 表达式中可省略
 ### RL
-* {old}# RL 算法，Q-learning 先更新 q(s,a) 再据此更新 π(s)，其中 temporal-difference (TD) 做法与 simulation-based search (Sim) 更新 q(s,a) 的依据分别为
+> （已停用{old}）RL 算法，Q-learning 先更新 q(s,a) 再据此更新 π(s)，其中 temporal-difference (TD) 做法与 simulation-based search (Sim) 更新 q(s,a) 的依据分别为
 	* TD：根据（关于 q 的）Bellman 方程
 	* Sim：依据 rollout 轨迹：从初态用当前策略 rollout 到终态，更新该轨迹上所有位置的 q
 	* 来源为YhPu slides file:///home/yzh/documents/noSync/research/largeModel/Introduction-to-RL.pptx
@@ -625,7 +625,7 @@ x}# ML 相关内容
 	* 拆分 `R(τ:<t) + R(τ:≥t)`，前项贡献为 0，后项期望为 γᵗQ(s,a)
 	* 注：后项推导 𝔼[R(τ:≥t)∇logπ_θ(aₜ|sₜ)] = 𝔼_{..,aₜ}[∇logπ_θ(aₜ|sₜ)𝔼_{sₜ₊₁,rₜ,..}[R(τ:≥t)]]
 		* 而 𝔼_{sₜ₊₁..}[R(τ:≥t)] = γᵗQ(sₜ,aₜ)
-* {x}# 旧内容
+> （已停用{x}）旧内容
 	* 由线性性，可内部添加期望 `𝔼[∑ₜ𝔼[R(τ)|sₜ,aₜ]logπ_θ(aₜ|sₜ)]`
 	* R(τ) = ∑ₛrₛ 去掉与 θ 无关的项（不影响梯度）{rₛ | s ≤ t}
 	* 剩余项期望为 Q^π(s,a)

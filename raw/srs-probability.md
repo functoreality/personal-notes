@@ -23,14 +23,14 @@ x}# 概率、随机过程、统计
 * 高维 Itô 公式：dXₜ = μdt + σdBₜ（σ 为方阵），则 df(t,Xₜ) = fₜdt + ∇f·dXₜ + ½[?]dt{n7vl8x}
 	* df(t,Xₜ) = fₜdt + ∇f·dXₜ + ½tr(σᵀHess(f)σ)dt
 	* 形式推导：Taylor 后最后一项 ½(dXₜ)ᵀHess(f)dXₜ，代入方程后再用((n7vl8v)) dBₜᵀA dBₜ = tr(A)dt
-* {old}# 1D Fokker-Planck 方程：设 dXₜ = μdt + σdBₜ，Xₜ 密度 pₜ(x)，则 dₜpₜ = [?]
+> （已停用{old}）1D Fokker-Planck 方程：设 dXₜ = μdt + σdBₜ，Xₜ 密度 pₜ(x)，则 dₜpₜ = [?]
 	* dₜpₜ = -(μpₜ)ₓ + ½(σ²pₜ)ₓₓ
 	* 2026-08-19 后项回忆出错，故拆为两个独立回忆点
 * 1D Fokker-Planck 方程：设 dXₜ = μdt + σdBₜ，Xₜ 密度 pₜ(x)，则 dₜpₜ = [?] + ½(σ²pₜ)ₓₓ{n7vm30}
 	* dₜpₜ = -(μpₜ)ₓ + ½(σ²pₜ)ₓₓ
 * 1D Fokker-Planck 方程：设 dXₜ = μdt + σdBₜ，Xₜ 密度 pₜ(x)，则 dₜpₜ = -(μpₜ)ₓ + [?]{q8ja6f}
 	* dₜpₜ = -(μpₜ)ₓ + ½(σ²pₜ)ₓₓ
-* {old}# 1D Fokker-Planck 方程推导：设 dXₜ = μdt + σdBₜ，则推导 Xₜ 密度 pₜ(x) 满足的时间演化方程的要点（两点）
+> （已停用{old}）1D Fokker-Planck 方程推导：设 dXₜ = μdt + σdBₜ，则推导 Xₜ 密度 pₜ(x) 满足的时间演化方程的要点（两点）
 	* ∫f(x)pₜ(x) = 𝔼f(Xₜ)，∀ f(x)
 		* 为第一点：Xₜ 与 pₜ(x) 的关系
 	* RHS 时间导数 (1) 用 Itô 公式，(2) 写为乘 pₜ(x) 积分，(3) 对 x 分部积分消掉 f(x) 导数项
@@ -56,7 +56,7 @@ x}# 概率、随机过程、统计
 * `u(x,t) = 𝔼[ψ(X_T)|Xₜ=x]` 满足什么性质{p6ib72}
 	> 设定：推导 Kolmogorov backward equation 用到，针对 SDE dXₜ = μdt + σdBₜ
 	* u(Xₜ,t) 是鞅，即 𝔼[u(Xₛ,s)|Xₜ=x] = u(x,t),∀s ∈ [t,T]
-* {x}# 卡片设计理由，为何仍决定专门启用((p6ib72))
+> （已停用{x}）卡片设计理由，为何仍决定专门启用((p6ib72))
 	* 若仅记忆 KBE 推导，推测单独((p6ib74))足够，记得令 dt 系数为 0 即可
 	* 额外目标场景：其他场合（不涉及 KBE，不显式提及“鞅”）见到这个 u(x,t)，也能想到它是鞅
 	* 推导记忆卡片不足以满足需求：卡片正面绑定 KBE，不匹配
@@ -66,7 +66,7 @@ x}# 概率、随机过程、统计
 	> 设定：Kolmogorov backward equation，针对 SDE dXₜ = μdt + σdBₜ，`u(x,t) = 𝔼[ψ(X_T)|Xₜ=x]`
 	* 计算 du(Xₜ,t) = αdt + βdBₜ（用 Itô 公式）
 	* α = 0（由鞅性质）即得
-* {old}# 关于 u(x,t) 的 KBE 形式，包括 BC
+> （已停用{old}）关于 u(x,t) 的 KBE 形式，包括 BC
 	> 设定：Kolmogorov backward equation，针对 SDE dXₜ = μdt + σdBₜ，`u(x,t) = 𝔼[ψ(X_T)|Xₜ=x]`
 	* uₜ + μ·∇u + ½tr[σᵀHess(u)σ] = 0
 	* u(x,T) = ψ(x)
@@ -76,7 +76,7 @@ x}# 概率、随机过程、统计
 	> 设定：Kolmogorov backward equation，针对 SDE dXₜ = μdt + σdBₜ，`u(x,t) = 𝔼[ψ(X_T)|Xₜ=x]`
 	* uₜ + μ·∇u + ½tr[σᵀHess(u)σ] = 0
 	* u(x,T) = ψ(x)
-* {old}# KBE uₜ + [?] + ½tr[σᵀHess(u)σ] = 0
+> （已停用{old}）KBE uₜ + [?] + ½tr[σᵀHess(u)σ] = 0
 	> 设定：Kolmogorov backward equation，针对 SDE dXₜ = μdt + σdBₜ，`u(x,t) = 𝔼[ψ(X_T)|Xₜ=x]`
 	* uₜ + μ·∇u + ½tr[σᵀHess(u)σ] = 0
 	* 注意不是 Fokker-Planck 的 ∇·(μu)；该项来自关于 u 的 Itô 公式中 (∇u)·dXₜ
@@ -119,7 +119,7 @@ x}# 概率、随机过程、统计
 	* 有 Y = gu + ∫gf 为鞅（因 dYₜ = [⋯]dBₜ）
 	* （无需回忆）之后由 uₛ = Yₛ = 𝔼[Y_T|Xₛ = x] 可导出 Feynman-Kac 公式
 		* 其中一开始需选取特殊的 g(·) 构造满足 g(s) = 1
-* {old}# 高维方程 Lu = 0 希望用 Monte Carlo 求解，MC 目标的构造思路（我的理解）
+> （已停用{old}）高维方程 Lu = 0 希望用 Monte Carlo 求解，MC 目标的构造思路（我的理解）
 	> （注）Feynman-Kac 方程就可以这么理解
 	* （根据 Lu = 0 形式）构造随机游走 Xₜ，考察其下 du 满足的 SDE
 	* 变形凑 dYₜ = [⋯]dBₜ 形式，从而 Yₜ 为鞅
@@ -135,7 +135,7 @@ x}# 概率、随机过程、统计
 * 高维方程 Lu = 0 Monte Carlo 估解（或造 PINN loss），对哪个期望表达式用 Monte Carlo 估算{p6jg78}
 	> （注）Feynman-Kac 方程就可以这么理解
 	* 鞅 Yₜ 的触边时刻取值：用 MC 估计 Yₛ = 𝔼[Y_T|Xₛ = x]
-* {old}# 高维方程 Lu = 0 用 Monte Carlo 解，构造鞅 Yₜ 两步
+> （已停用{old}）高维方程 Lu = 0 用 Monte Carlo 解，构造鞅 Yₜ 两步
 	> （注）Feynman-Kac 方程就可以这么理解
 	* 推 SDE：du(Xₜ,t) = [⋯]dt + [⋯]dBₜ
 		* 其中随机游走 Xₜ 根据 Lu = 0 形式构造
@@ -185,13 +185,13 @@ x}# 概率、随机过程、统计
 * Bₜ + μt ≤ -a, ∃t > 0 的概率{p9ae74}
 	> 设定：Bₜ 标准布朗运动，常数 `μ,a > 0`
 	* exp(-2μa)
-* # Bₜ + μt > -a, ∀t > 0 概率计算，构造辅助变量 [?1]，其中系数确定方式 [?2]{p9ae76}
+> （已停用）Bₜ + μt > -a, ∀t > 0 概率计算，构造辅助变量 [?1]，其中系数确定方式 [?2]{p9ae76}
 	> 设定：Bₜ 标准布朗运动，常数 `μ,a > 0`
 	* Mₜ = exp(-2μXₜ)，其中 Xₜ = Bₜ + μt
 		* 系数 -2μ 无需回忆
 	* 凑普通指数鞅 Mₜ = exp(σBₜ - (1/2)σ²t)，发现对应 σ = -2μ
 	* 制卡当天弃用：改按生成式理解制卡；新卡片((p9ae7e))与此类似，但仍决定保留整套旧卡片
-* # Bₜ + μt > -a, ∀t > 0 概率计算，对构造的鞅 Mₜ 取什么停时{p9ae78}
+> （已停用）Bₜ + μt > -a, ∀t > 0 概率计算，对构造的鞅 Mₜ 取什么停时{p9ae78}
 	> 设定：Bₜ 标准布朗运动，常数 `μ,a > 0`
 	* min(τ,T)，并令 T → ∞
 	* 其中 τ 为首次碰壁时间（即 τ = inf{t > 0 | Bₜ + μt ≤ -a}）
@@ -371,7 +371,7 @@ x}# 概率、随机过程、统计
 	> 背景：扩散生成vs流匹配
 	* 一致
 	* 推导：score sₜ(x|y) = ∇ₓlog pₜ(x|y) = ε/σₜ, σₜ² = ∫₀ᵗg(s)²ds，计算可验证 -½g(t)²/σₜ = σₜ'
-* {x}# ((q4lh36))注：上方 SDE 若加回 drift f，特例上可验证与流匹配速度场一致
+> （已停用{x}）((q4lh36))注：上方 SDE 若加回 drift f，特例上可验证与流匹配速度场一致
 	* SDE dXₜ = -Xₜdt + dWₜ
 	* 有 (Xₜ|X₀=y) ∼ N(μ=exp(-t)y, σ²=(1-exp(-2t))/2)
 		* 过程：d(exp(t)Xₜ) = exp(t)(Xₜ + dXₜ) = exp(t)dWₜ

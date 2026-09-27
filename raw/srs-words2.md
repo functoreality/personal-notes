@@ -303,7 +303,7 @@ x}# 英语单词 v2
 	* (informal)打架；争吵
 	* [可数名词] 碎片，小块（纸、织物等）；残羹剩饭
 	* [不可数名词]废料，废品
-* {x}# 关于 scrap 的例句由 DeepSeek-R1 生成，提示词如下
+> （已停用{x}）关于 scrap 的例句由 DeepSeek-R1 生成，提示词如下
 	* 请给我造一个英文句子，其中用到 scrap 的三种含义（如下面的例句所示）：
 	> She scribbled his phone number on a scrap of paper.
 	> He was always getting into scraps at school.

@@ -300,9 +300,9 @@ x}# Python
 	* 注：用于 MindSpore 规避 bool repeat 操作((ncbl5y))
 * Python 中若 arr1, arr2 类型均为 Optional[NDArray]，则语句 `None in [arr1, arr2]` 是否合适{o75g8x}
 	* 不合适；该语句相当于 (None == arr1) or (None == arr2)，取值均为 NDArray 时 == 得两个 NDArray，此时 or 运算不合法
-* # NumPy 中计算二向量「张量积」，可用什么函数{oc2b5n}
+> （已停用）NumPy 中计算二向量「张量积」，可用什么函数{oc2b5n}
 	* np.outer(a, b)
-* # NumPy 中计算两个 3D 向量的「叉乘/外积」，可用什么函数{oc2b5p}
+> （已停用）NumPy 中计算两个 3D 向量的「叉乘/外积」，可用什么函数{oc2b5p}
 	* np.cross(a, b)
 * NumPy 函数，计算两个 3D 向量的叉乘 [?1]、张量积 [?2]{oc2b5p}
 	* np.cross(a, b)
@@ -364,7 +364,7 @@ x}# Python
 	* 先变形为 u·∇v + (∇·u)v
 	* 注：原准备用于求解可压 NS 方程
 #### mindspore
-* {x}# MindSpore 框架用法
+> （已停用{x}）MindSpore 框架用法
 	* [doc](https://mindspore.cn/tutorials/zh-CN/master/index.html)
 * MindSpore 中若前向网络有多输出分量 f(x) = (f1(x), f2(x))，则直接写 ms.grad(f) 结果为{n7pb0k}
 	* f1 + f2 的 grad；MindSpore 会对所有输出结果求和后再统一求导

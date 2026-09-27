@@ -116,7 +116,7 @@ x}# Lean 定理证明环境
 * Lean 中 ¬ 含义：¬p 指代的是{n7jg7q}
 	* p → False
 	* 注：False 属于类型 Prop
-* # Lean 中 ¬ 用法：设 hp : p, hnp : ¬p，则 `#check hnp hp` 结果{n7in02}
+> （已停用）Lean 中 ¬ 用法：设 hp : p, hnp : ¬p，则 `#check hnp hp` 结果{n7in02}
 	* False
 * Lean 证明中，我的理解：have 语句在语法上相当于 [?] 语句{n7in4d}
 	* let

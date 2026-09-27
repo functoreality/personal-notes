@@ -811,7 +811,7 @@ n5oj10}单词含义：glucose
 	* scheme
 
 ## 中文
-* {x}# 以下来自 rime-ice 项目下 lua/corrector.lua
+> （已停用{x}）以下来自 rime-ice 项目下 lua/corrector.lua
 	* ((n8un00))-((n8un09))
 * 汉字读音：[说]服{n8un00}
 	* shuō
@@ -875,7 +875,7 @@ n5oj10}单词含义：glucose
 	* yòu
 
 ## 西班牙语
-* {x}# 西语发音来自视频
+> （已停用{x}）西语发音来自视频
 	* [src](https://www.iqiyi.com/v_19rr97rwh0.html?vfrm=pcw_album_auto)
 * 西语辅音发音：ca, (ce, ci), ch, h{n9nl90}
 	* g 的清辅音

@@ -166,7 +166,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 * Hamilton-Jacobi 方程作为 HJB 特殊情形：HJB 方程考虑 t ∈ (-∞,0] 上的控制问题 max(D(x(0)) + ∫R(x,u)dt), w.r.t. u(t), s.t. ẋ = F(x,u)，HJ 方程中取 F(x,u) = [?]{o8ba6g}
 	* F(x,u) = u
 	* 即：u(t) = ẋ(t) 为待优化的自变量
-* {x}# Hamilton-Jacobi 方程作为 HJB 特殊情形：HJB 方程考虑 t ∈ (-∞,0] 上的控制问题 max(D(x(0)) + ∫R(x,u)dt), w.r.t. u(t), s.t. ẋ = F(x,u)，HJ 方程中取 R(x,u) = [?]
+> （已停用{x}）Hamilton-Jacobi 方程作为 HJB 特殊情形：HJB 方程考虑 t ∈ (-∞,0] 上的控制问题 max(D(x(0)) + ∫R(x,u)dt), w.r.t. u(t), s.t. ẋ = F(x,u)，HJ 方程中取 R(x,u) = [?]
 	* R(x,u) = -L(x,u)
 	* 注意负号（因为 Lagrange 力学是 min 问题，Legendre 变换也是 H(x,p) = maxᵤ(p·v - L(x,u)) 有负号）
 * Hamilton-Jacobi 方程作为 HJB 特殊情形：HJB 方程考虑 t ∈ (-∞,0] 上的控制问题 max(D(x(0)) + ∫R(x,u)dt), w.r.t. u(t), s.t. ẋ = F(x,u)，HJ 方程中取 R(x,u) = -L(x,u)，为何 HJ 方程中的 S = ∫L 仍等于 HJB 方程中的 V = ∫R{o8ba6i}
@@ -183,7 +183,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	* a(x,z) = ā(x) + ∑zⱼψⱼ(x)
 	* |zⱼ| ≤ 1，即 z ∈ B(ℓ^∞(ℕ,ℂ))
 	* （仅重读）还要求 ψ ∈ ℓᵖ(ℕ,L^∞(D)), `p < 1`；注意这里 ‖γₙ‖ₚ = (∑ₙ|γₙ|ᵖ)¹ˊᵖ不是范数
-* {old}# -∇·(a∇u) = f，解算子 z ↦ u 有任意阶偏导数，论证思路
+> （已停用{old}）-∇·(a∇u) = f，解算子 z ↦ u 有任意阶偏导数，论证思路
 	> 推论：Taylor 级数可定义
 	> 背景：椭圆方程解流形 Kolmogorov n-width 衰减速度快
 	> 来源：1509.07045 引文 [8]，A. Cohen 2010
@@ -254,7 +254,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	> 来源：陈亚浙椭圆方程 p5
 	* 考虑 w = u - g ∈ H₀¹(Ω) 满足的方程
 	* 用 Lax-Milgram 引理
-* {old}# （2025-07-04）椭圆方程的「弱下解」定义：u ∈ H¹(Ω) 满足 ∀ϕ ∈ C₀^∞(Ω)，ϕ ≥ 0，有 a(u,ϕ) [?] f(ϕ)，≤ 还是 ≥（陈亚浙椭圆方程 p8）
+> （已停用{old}）（2025-07-04）椭圆方程的「弱下解」定义：u ∈ H¹(Ω) 满足 ∀ϕ ∈ C₀^∞(Ω)，ϕ ≥ 0，有 a(u,ϕ) [?] f(ϕ)，≤ 还是 ≥（陈亚浙椭圆方程 p8）
 	* 
 * 「弱下解」定义中 a(u,ϕ) [?2] f(ϕ)，≤ 还是 ≥，回忆依据 [?1]{o7te2b}
 	> 设定：椭圆方程，u ∈ H¹(Ω)，∀ϕ ∈ C₀^∞(Ω)，ϕ ≥ 0
@@ -315,10 +315,10 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	* Markov 不等式 ‖ϕ‖ₚ ≥ hA(k + h)¹ˊᵖ
 	* 对递推式 A(k + h) ≤ C·A(k)ᵅ/hᵝ 用 De Giorgi 迭代的引理((p32g7v))
 ## FEM 课程
-* {x}# FEM2 2023fall 吴朔男
+> （已停用{x}）FEM2 2023fall 吴朔男
 	* 教材为 Brenner 的书
 	* [课程主页](https://www.math.pku.edu.cn/teachers/snwu/teaching/2023FEM.html)
-* # FEM 误差估计的 Cea 引理，表述{n9ef6k}
+> （已停用）FEM 误差估计的 Cea 引理，表述{n9ef6k}
 	* a(-,-) 满足((n9ef72))Lax-Milgram 引理的条件
 	* a(u,v) = (f,v), ∀v ∈ V
 	* S ⊂ V 有限维，a(u_S,v) = (f,v)，u_S,v ∈ S
@@ -329,7 +329,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	* （∀u,v ∈ V）
 * Lax-Milgram 引理的结论（无需回忆条件）{q14l7b}
 	* ∃u, ∀v, a(u,v) = (f,v)；相当于 Lu = f 有解 u
-* # FEM 误差估计的 Cea 引理 ‖u - u_S‖ ≤ (M/c)inf_{v ∈ S}‖u - v‖，证明要点（2 点）{n9ef7u}
+> （已停用）FEM 误差估计的 Cea 引理 ‖u - u_S‖ ≤ (M/c)inf_{v ∈ S}‖u - v‖，证明要点（2 点）{n9ef7u}
 	> - 注：设定为 a(u,v) = (f,v),∀v ∈ V，限制在 S ⊂ V 的 Ritz-Galerkin 解 u_S
 	* 1. a(u - u_S, v) = 0, ∀v ∈ S
 	* 2. a(u - u_S, u - u_S) = a(u - u_S, u - v)
@@ -352,7 +352,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	* 不是 p/n，因可能 p=∞
 * Sobolev embedding 条件中对 Ω 的要求{n9em5r}
 	* Ω Lipschitz，同((n9em5m))Sobolev extension theorem
-* {old}# Sobolev embedding 中 Sobolev number 大的可以嵌入小的，何时可取等号（即二空间 Sobolev number 相同、一个嵌入另一个）（有细节，回忆时建议写下）
+> （已停用{old}）Sobolev embedding 中 Sobolev number 大的可以嵌入小的，何时可取等号（即二空间 Sobolev number 相同、一个嵌入另一个）（有细节，回忆时建议写下）
 	* 所涉及的两个空间均为 Sobolev 空间，并且 `p < ∞`
 	* 此时只要求 k 大的嵌入 k 小的
 	* 2026-04-10 重构：题面混乱
@@ -368,7 +368,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	* Ω Lipschitz
 	* Sobolev extension theorem
 ## 谱方法
-* {x}# spectral method
+> （已停用{x}）spectral method
 	* 作者：Jie Shen, Tao Tang, Li-Lian Wang
 * 带权 ω ∈ L¹(I) 的首一正交多项式 {pₙ} 如何唯一确定（谱方法 p49）{o73g90}
 	* 对 1, x, x², x³, .. 执行 Schmidt 正交化（保持首一，无需归一化）
@@ -430,7 +430,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 * Jacobi 多项式 Jₙᵅ'ᵝ 是 L²(I,ωdm) 的正交基底，其中 I = [?]，ω(x) = [?]（谱方法 p70）{o76950}
 	* I = (-1,1)
 	* ω(x) = (1 - x)ᵅ(1 + x)ᵝ
-* {x}# Legendre 多项式 Lₙ(x) = cₙ[(1-x²)ⁿ]⁽ⁿ⁾ 为 L²([-1,1]) 正交基底，如何证明正交性（谱方法 p72）
+> （已停用{x}）Legendre 多项式 Lₙ(x) = cₙ[(1-x²)ⁿ]⁽ⁿ⁾ 为 L²([-1,1]) 正交基底，如何证明正交性（谱方法 p72）
 	* 用分部积分
 	* 具体地：设 n > m，∫LₙLₘdx ∝ ∫(1 - x²)ⁿLₘ⁽ⁿ⁾ = 0
 * L²(I,ωdm) 正交多项式 {pₙ(x)} 的 Rodrigues 公式常具有形式 pₙ(x) = ω(x)⁻¹fₙ⁽ⁿ⁾(x)，如何用该形式证明其正交性（谱方法 p72） {o76952}
@@ -490,7 +490,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	* V ∈ 𝖳𝖵𝖾𝖼, H ∈ 𝖧𝗂𝗅𝖻, V → H 连续单射
 	* 注：V 在 H 中稠密表明 H' → V' 也是单射
 ## 线性代数，数值代数
-* {old}# 矩阵运算：F(t) = (A + tB)⁻¹，F'(0) = [?]，推导关键步骤 [?]
+> （已停用{old}）矩阵运算：F(t) = (A + tB)⁻¹，F'(0) = [?]，推导关键步骤 [?]
 	* F'(0) = -A⁻¹BA⁻¹ = -F(0)BF(0)
 	* 考察 dₜ(A+tB)⁻¹(A+tB)
 	* 注：APDE p179 有推导 dₜA⁻¹(t) = -A⁻¹ȦA⁻¹，还给了一种按定义的推导
@@ -549,7 +549,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 * 矩阵运算：设 V = [v₁,v₂,…,vₙ]，则 det[Av₁,v₂,…,vₙ] + det[v₁,Av₂,…,vₙ] + … + det[v₁,v₂,…,Avₙ] 化简的推导过程{n97l9r}
 	* LHS = dₜ|ₜ₌₀ det(V + tAV) = dₜ|ₜ₌₀ det(I + tA)det(V)
 	* 由((n97d88)) det(I + tA) 一阶泰勒展开即得
-* {old}# （2025-07-12 改写）3D 旋转用四元数表示，绕单位向量 u 旋转角度 θ 的映射 [0,v] ↦ α[0,v]β，其中 α = [?], β = [?]（注：决定不要求回忆 α,β 各自的符号）
+> （已停用{old}）（2025-07-12 改写）3D 旋转用四元数表示，绕单位向量 u 旋转角度 θ 的映射 [0,v] ↦ α[0,v]β，其中 α = [?], β = [?]（注：决定不要求回忆 α,β 各自的符号）
 	* α = cos(θ/2) + sin(θ/2)u
 	* β = cos(θ/2) - sin(θ/2)u
 * 3D 旋转用四元数表示 [0,v] ↦ q[0,v]q*，q = [?1] ± [?2]（标量 ± 向量；± 无需回忆）{na6f70}
@@ -595,7 +595,7 @@ x}# 数学、物理等相关内容 2；2025-02-25 从 mathPhy-srs.md 独立
 	* [src](https://www.zhihu.com/question/42888092/answer/1899376043)
 * Clifford 代数 Cl(V,Q) 与外代数 ⊕ₖ∧ᵏV 之间的关系（V ∈ 𝖵𝖾𝖼, Q ∈ S²Vᵛ）{o9ba8o}
 	* Q = 0 时 Cl(V,Q) 纯粹反对称，退化为外代数
-* {old}# 为构造 Clifford 代数 Cl(V,Q)，V 的基底 {eᵢ} 通常如何选取 [?1]，该选取下 Cl(V,Q) 乘法运算满足 eᵢ² ∈ [?2]，eᵢeⱼ = [?3]（i ≠ j）
+> （已停用{old}）为构造 Clifford 代数 Cl(V,Q)，V 的基底 {eᵢ} 通常如何选取 [?1]，该选取下 Cl(V,Q) 乘法运算满足 eᵢ² ∈ [?2]，eᵢeⱼ = [?3]（i ≠ j）
 	> 其中 V ∈ 𝖵𝖾𝖼, Q ∈ S²Vᵛ
 	* 使 Q = diag(+1,..,0,..,-1)
 	* {+1,0,-1}，具体取值取决于 i

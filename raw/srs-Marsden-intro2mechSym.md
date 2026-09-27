@@ -12,7 +12,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* A ∈ 𝔰𝔭(Z)
 	* 具体判据：A is Ω-skew, 即 Ω(Au,v) = -Ω(u,Av)
 	* 或等价的 Ω(Au,v) = Ω(Av,u)
-* {old}# 辛空间 Z 中，线性向量场 A 若有 Hamiltonian，可取为 H = [?]（Marsden 力学与对称性导论 p77）
+> （已停用{old}）辛空间 Z 中，线性向量场 A 若有 Hamiltonian，可取为 H = [?]（Marsden 力学与对称性导论 p77）
 	* H(z) = (1/2)Ω(Az,z)，注意系数 1/2
 	* 制卡次日重构：认知升级，从更高观点解读，并整合更多信息
 * 辛空间 Z 中有 H. ∈ 𝗅𝗂𝖾(𝔰𝔭(Z), C^∞(Z)), H_A = [?]{p93g7p}
@@ -24,7 +24,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	> 来源：Marsden 力学与对称性导论 p77
 	* 代入 X_H(z) = Az
 	* 对 z 求沿 u 的方向导数
-* {old}# Ham(Z) ∈ 𝗅𝗂𝖾 可用的 [-,-] 结构 [?1]（只要求对该运算封闭）；若可定义 self-adj(Z) ∈ 𝗅𝗂𝖾，二者关系 [?2]
+> （已停用{old}）Ham(Z) ∈ 𝗅𝗂𝖾 可用的 [-,-] 结构 [?1]（只要求对该运算封闭）；若可定义 self-adj(Z) ∈ 𝗅𝗂𝖾，二者关系 [?2]
 	> 设定：Z 辛空间，Ham(Z) 由 Hamiltonian 线性向量场组成
 	> 来源：基于 Marsden 力学与对称性导论 p77,p78
 	* 同 𝖵𝖾𝖼(Z)，即 inc ∈ 𝗅𝗂𝖾(Ham(Z),𝖵𝖾𝖼(Z)) 为李代数嵌入
@@ -85,7 +85,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 * （无穷维）辛流形，the Schrödinger bracket：设 Hₒₚ，Kₒₚ 为复 Hilbert 空间 𝓗 上自共轭算子，则 {⟨Kₒₚ⟩,⟨Hₒₚ⟩} = ⟨[?]⟩（Marsden 力学与对称性导论 p116）{na6g8a}
 	* {⟨Kₒₚ⟩,⟨Hₒₚ⟩} = ⟨[Kₒₚ, Hₒₚ]/iℏ ⟩
 	* 注：原文忽略了 iℏ 应为 typo，我自己推的结果、GTM267 p71 都有 iℏ
-* {old}# (Hₒₚ ↦ [?]) ∈ 𝗅𝗂𝖾(self-adj(𝓗),C^∞(𝓗))，包括系数、主项
+> （已停用{old}）(Hₒₚ ↦ [?]) ∈ 𝗅𝗂𝖾(self-adj(𝓗),C^∞(𝓗))，包括系数、主项
 	> 注 1. 其中 self-adj(𝓗) 上 [A,B] = i(AB - BA)
 	> 注 2. 背景：无穷维辛流形 the Schrödinger bracket
 	> 注 3. 来源：基于 Marsden 力学与对称性导论 p116
@@ -142,9 +142,9 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* Marsden 力学与对称性导论 p155
 * 余切丛作为辛流形：满足 σ*τ = σ 对 ∀σ ∈ Ω¹(Q)（视为 σ: Q → TᵛQ）成立的 τ ∈ Ω¹(TᵛQ) 有哪些（Marsden 力学与对称性导论 p168）{na7n1a}
 	* 有且只有 ((na2e90))tautological 1-form τ
-* {old}# （有事实错误）cotangent lift 给出的辛映射：(1) { Tᵛ[ϕ] | ϕ ∈ 𝖣𝗂𝖿𝖿(Q)ˣ }（Q 上自同胚的 cotangent lift 集合）与 (2) 𝖲𝗒𝗆𝗉(TᵛQ)ˣ（TᵛQ 上辛同胚集合）的包含关系（Marsden 力学与对称性导论 p170）
+> （已停用{old}）（有事实错误）cotangent lift 给出的辛映射：(1) { Tᵛ[ϕ] | ϕ ∈ 𝖣𝗂𝖿𝖿(Q)ˣ }（Q 上自同胚的 cotangent lift 集合）与 (2) 𝖲𝗒𝗆𝗉(TᵛQ)ˣ（TᵛQ 上辛同胚集合）的包含关系（Marsden 力学与对称性导论 p170）
 	* { Tᵛ[ϕ] | ϕ ∈ 𝖣𝗂𝖿𝖿(Q)ˣ } = 𝖲𝗒𝗆𝗉(TᵛQ)ˣ
-* # （有事实错误）与 𝖲𝗒𝗆𝗉(TᵛQ)ˣ 同构的 Lie 群：[?] ∈ 𝖫𝗂𝖾(𝖣𝗂𝖿𝖿(Q)ˣ,𝖲𝗒𝗆𝗉(TᵛQ)ˣ) 给出了 Lie 群同构（基于 Marsden 力学与对称性导论 p170）{o8qm89}
+> （已停用）（有事实错误）与 𝖲𝗒𝗆𝗉(TᵛQ)ˣ 同构的 Lie 群：[?] ∈ 𝖫𝗂𝖾(𝖣𝗂𝖿𝖿(Q)ˣ,𝖲𝗒𝗆𝗉(TᵛQ)ˣ) 给出了 Lie 群同构（基于 Marsden 力学与对称性导论 p170）{o8qm89}
 	* T⁻ᵛ ∈ 𝖫𝗂𝖾(𝖣𝗂𝖿𝖿(Q)ˣ,𝖲𝗒𝗆𝗉(TᵛQ)ˣ)
 		* 基于 Q 上自同胚的 cotangent lift ϕ ↦ Tᵛ[ϕ]
 * cotangent lift 像集 Im(T⁻ᵛ) 的结构：ϕ ∈ Im(T⁻ᵛ) ⇔ ϕ^* preserve 哪个微分形式{o9nl2l}
@@ -171,7 +171,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 		* 注：辛流形未必为 Mᵢ = TᵛQᵢ，故未必有全局的 tautological 1-form τᵢ；但由于 dω = 0，仍可局部地定义 τᵢ
 	* 由于 f symplectic，可验证 dτ = 0
 	* 故局部地有 τ = dS, S ∈ C^∞(Γ(f)) 可相差常数
-* {old}# 辛变换：（设 Q₁ ≅ Q₂）给定 generating function S ∈ C^∞(Q₁ × Q₂)，它如何给出变换 fᵢ: Q₁ × Q₂ → TᵛQᵢ，该给出方式的原理（Marsden 力学与对称性导论 p175）
+> （已停用{old}）辛变换：（设 Q₁ ≅ Q₂）给定 generating function S ∈ C^∞(Q₁ × Q₂)，它如何给出变换 fᵢ: Q₁ × Q₂ → TᵛQᵢ，该给出方式的原理（Marsden 力学与对称性导论 p175）
 	* p₁ = ∂S/∂q₁，p₂ = -∂S/∂q₂
 	* 原理（推导方式）：τ₁ - τ₂ = dS
 	* 2025-10-10 重构：设问表述调整
@@ -180,7 +180,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	> 来源：Marsden 力学与对称性导论 p175
 	* dS = τ₁ - τ₂
 	* p₁ = ∂S/∂q₁，p₂ = -∂S/∂q₂
-* {old}# 如何利用 generating function S ∈ C^∞(Q₁ × Q₂) 给出 Q₁ × Q₂ 上的辛结构 ω
+> （已停用{old}）如何利用 generating function S ∈ C^∞(Q₁ × Q₂) 给出 Q₁ × Q₂ 上的辛结构 ω
 	> （注）背景：辛变换，Q₁ ≅ Q₂
 	> （注）来源：基于 Marsden 力学与对称性导论 p175
 	* ω = fᵢ^*ωᵢ
@@ -244,10 +244,10 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* Lie[-] = Tₑ ∈ 𝖫𝗂𝖾(𝖫𝗂𝖾(G)ˣ, 𝗅𝗂𝖾(𝔤)ˣ)
 		* 注：我的记号 𝔤 = Lie(G)，Lie 为函子
 	* 注：我的各元素关系示意图 file:///home/yzh/oc-ptis/attached/o8tm2x-LieGrp-Ad-SRS.xoj
-* # 对 Lie 群上 adjoint operator Ad ∈ 𝖫𝗂𝖾(G, 𝗅𝗂𝖾(𝔤)ˣ) 与 η ∈ 𝔤，有 Ad.η ∈ 𝖣𝗂𝖿𝖿(G,𝔤)，Tₑ[Ad.η] ∈ 𝖵𝖾𝖼(TₑG,T_η𝔤) = 𝖵𝖾𝖼(𝔤)，满足 Tₑ[Ad.η]: ξ ↦ [?]（Marsden 力学与对称性导论 p275）{o89l73a}
+> （已停用）对 Lie 群上 adjoint operator Ad ∈ 𝖫𝗂𝖾(G, 𝗅𝗂𝖾(𝔤)ˣ) 与 η ∈ 𝔤，有 Ad.η ∈ 𝖣𝗂𝖿𝖿(G,𝔤)，Tₑ[Ad.η] ∈ 𝖵𝖾𝖼(TₑG,T_η𝔤) = 𝖵𝖾𝖼(𝔤)，满足 Tₑ[Ad.η]: ξ ↦ [?]（Marsden 力学与对称性导论 p275）{o89l73a}
 	* Tₑ[Ad.η]: ξ ↦ [ξ,η]
 	* 注：按新结论((o89l73)) ad(ξ)(η) = [ξ,η] 记忆
-* {old}# 矩阵等式 det(exp A) = exp(tr A) 来自一般的 Lie 群结论，exp ∈ [?] 为 natural transformation（Marsden 力学与对称性导论 p276-277）
+> （已停用{old}）矩阵等式 det(exp A) = exp(tr A) 来自一般的 Lie 群结论，exp ∈ [?] 为 natural transformation（Marsden 力学与对称性导论 p276-277）
 	* exp ∈ 𝖢𝖠𝖳(𝖫𝗂𝖾,𝖣𝗂𝖿𝖿)(Lie,Id)
 	* 注：用到 𝗅𝗂𝖾 ⊂ 𝖣𝗂𝖿𝖿, 𝖫𝗂𝖾 ⊂ 𝖣𝗂𝖿𝖿
 	* （以下为修订记录）该卡片设计的问题：
@@ -293,7 +293,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* λ,ρ ∈ Ω¹(G;𝔤) = Γ(TᵛG ⊗ 𝔤) = 𝖵𝖡(TG, 𝔤)
 	* 注：𝔤 ∈ 𝖵𝖡 可按 G × 𝔤 或 {p} × 𝔤 理解
 	* 注：“左、右平移形式”只是我的叫法
-* {old}# Lie 群 Maurer–Cartan 结构方程涉及的左平移形式 λ ∈ Ω¹(G;𝔤) = 𝖵𝖡(TG,TₑG) 定义：对 g ∈ G，λ|T_gG = [?]: T_gG → TₑG = 𝔤（Marsden 力学与对称性导论 p280）
+> （已停用{old}）Lie 群 Maurer–Cartan 结构方程涉及的左平移形式 λ ∈ Ω¹(G;𝔤) = 𝖵𝖡(TG,TₑG) 定义：对 g ∈ G，λ|T_gG = [?]: T_gG → TₑG = 𝔤（Marsden 力学与对称性导论 p280）
 	* λ|T_gG = T_g[L_{g⁻¹}]: T_gG → TₑG = 𝔤
 	* 注：其中 L_{g⁻¹}: G → G, g ↦ e 
 	* （旧）`u_g ∈ T_gG, λ(u_g) = T_g[L_{g⁻¹}](u_g)`
@@ -317,7 +317,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* dλ + [λ,λ] = 0
 	* dρ - [ρ,ρ] = 0
 	* 注：证明用到((o7gd9e))d:Ωᵏ → Ωᵏ⁺¹ 不依赖坐标系的表达式
-* {x}# Lie 群 Maurer–Cartan 结构方程中，由左平移形式 λ ∈ Ω¹(G;𝔤) 定义出了 [λ,λ] ∈ Ω²(G;𝔤)，其中涉及的 [-,-]: Ω¹(G;𝔤) × Ω¹(G;𝔤) → Ω²(G;𝔤) 我所理解的定义方式为 [?1]，具体计算上 [λ₁,λ₂] = [?2]（Marsden 力学与对称性导论 p280）
+> （已停用{x}）Lie 群 Maurer–Cartan 结构方程中，由左平移形式 λ ∈ Ω¹(G;𝔤) 定义出了 [λ,λ] ∈ Ω²(G;𝔤)，其中涉及的 [-,-]: Ω¹(G;𝔤) × Ω¹(G;𝔤) → Ω²(G;𝔤) 我所理解的定义方式为 [?1]，具体计算上 [λ₁,λ₂] = [?2]（Marsden 力学与对称性导论 p280）
 	* Ω¹(G; 𝔤) = Γ(TᵛG ⊗ 𝔤)，在 fiber T_gᵛG ⊗ 𝔤 上对前一个分量取楔积 -∧-、后一个分量取 Lie bracket [-,-]
 	* [λ₁, λ₂]: T_g × T_g → 𝔤, (u_g, v_g) ↦ [λ₁(u_g), λ₂(v_g)]
 * Lie 群 Maurer–Cartan 结构方程涉及映射 Ω¹(G;𝔤) → Ω²(G;𝔤), λ ↦ [λ,λ]，我将它拆成了哪两个映射的复合（基于 Marsden 力学与对称性导论 p280）{o8af00}
@@ -346,7 +346,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 * 设 a ∈ ℝ³ 对应 A ∈ 𝔰𝔬(3)（满足 Ab = a × b），则 A² = [?]，用 a 表示（Marsden 力学与对称性导论 p292）{o8aj5s}
 	* A² = aaᵀ - aᵀaI ，注意减号
 	* 注：用 F × (G × H) 的计算公式不难推导
-* {old}# Rodrigues 公式用于计算 exp: 𝔰𝔬(3) → SO(3)：设「单位」向量 a ∈ ℝ³ 对应 A ∈ 𝔰𝔬(3)（满足 Ab = a × b），则 exp(rA) = [?]（Marsden 力学与对称性导论 p292）
+> （已停用{old}）Rodrigues 公式用于计算 exp: 𝔰𝔬(3) → SO(3)：设「单位」向量 a ∈ ℝ³ 对应 A ∈ 𝔰𝔬(3)（满足 Ab = a × b），则 exp(rA) = [?]（Marsden 力学与对称性导论 p292）
 	* 
 * exp(rA) = [?]{o8aj5u}
 	> （注）设定：设「单位」向量 a ∈ ℝ³ 对应 A ∈ 𝔰𝔬(3)（满足 Ab = a × b）
@@ -363,7 +363,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	> （注）来源：Marsden 力学与对称性导论 p292
 	> （注）复习时间需分开
 	* B = rA，其中 A ∈ 𝔰𝔬(3) 对应「单位」向量 a ∈ ℝ³（满足 Ab = a × b）
-* {old}# 辛群：设 J = [0,I;-I,0]，有 Sp(2n,ℝ) = { A | [?1] }, 𝔰𝔭(2n,ℝ) = { A | [?2] }（Marsden 力学与对称性导论 p293-294）
+> （已停用{old}）辛群：设 J = [0,I;-I,0]，有 Sp(2n,ℝ) = { A | [?1] }, 𝔰𝔭(2n,ℝ) = { A | [?2] }（Marsden 力学与对称性导论 p293-294）
 	* Sp(2n,ℝ) = { A | AᵀJA = J }
 		* 注：用辛空间语言 Ω(Av,Aw) = Ω(v,w) 不难记忆
 	* 𝔰𝔭(2n,ℝ) = { A | AᵀJ + JA = 0 }
@@ -399,7 +399,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* 注：后者在书上是 O(2n)；由于 Sp ⊂ SL，二者应等价
 * 考虑向量空间同构 𝔰𝔬(3) ≅ ℝ³，adjoint operator Ad ∈ 𝖫𝗂𝖾(SO(3), 𝗅𝗂𝖾(𝔰𝔬(3))ˣ) 对应 [?] ∈ 𝖫𝗂𝖾(SO(3), 𝖵𝖾𝖼(ℝ³))（Marsden 力学与对称性导论 p311）{o8c96y}
 	* i ∈ 𝖫𝗂𝖾(SO(3), 𝖵𝖾𝖼(ℝ³)) 即普通嵌入映射
-* {x}# Lie 群上 coadjoint action Adᵛ ∈ 𝖫𝗂𝖾(G, 𝖵𝖾𝖼(𝔤ᵛ)ˣ) 的定义，我拆分成了哪三个算子的复合（Marsden 力学与对称性导论 p311）
+> （已停用{x}）Lie 群上 coadjoint action Adᵛ ∈ 𝖫𝗂𝖾(G, 𝖵𝖾𝖼(𝔤ᵛ)ˣ) 的定义，我拆分成了哪三个算子的复合（Marsden 力学与对称性导论 p311）
 	* inv ∈ 𝖫𝗂𝖾(G,Gᵒᵖ)
 	* Adᵒᵖ ∈ 𝖫𝗂𝖾(Gᵒᵖ, (𝗅𝗂𝖾(𝔤)ˣ)ᵒᵖ)
 	* ᵛ[-] ∈ 𝖫𝗂𝖾((𝗅𝗂𝖾(𝔤)ˣ)ᵒᵖ, 𝖵𝖾𝖼(𝔤ᵛ)ˣ)
@@ -413,7 +413,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 * Lie 群上 Lie[Ad⁻ᵛ] = [?] ∈ 𝗅𝗂𝖾(𝔤,𝖵𝖾𝖼(𝔤ᵛ₊)){o8tm2i}
 	* Lie[Ad⁻ᵛ] = -adᵛ ∈ 𝗅𝗂𝖾(𝔤,𝖵𝖾𝖼(𝔤ᵛ₊))
 	* 注：我的各元素关系示意图 file:///home/yzh/oc-ptis/attached/o8tm2x-LieGrp-Ad-SRS.xoj
-* {old}# 设有群作用 Φ ∈ 𝖦𝗋𝗉(G, 𝓒(A)ˣ), Ψ ∈ 𝖦𝗋𝗉(G, 𝓒(B)ˣ), A、B 为范畴 𝓒 中对象，则 f ∈ 𝓒(A,B) equivariant 的定义，我理解为 natural transformation f ∈ [?]（基于 Marsden 力学与对称性导论 p316）
+> （已停用{old}）设有群作用 Φ ∈ 𝖦𝗋𝗉(G, 𝓒(A)ˣ), Ψ ∈ 𝖦𝗋𝗉(G, 𝓒(B)ˣ), A、B 为范畴 𝓒 中对象，则 f ∈ 𝓒(A,B) equivariant 的定义，我理解为 natural transformation f ∈ [?]（基于 Marsden 力学与对称性导论 p316）
 	* f ∈ 𝖢𝖠𝖳(G,𝓒)(Φ,Ψ)
 	* 相关：相应交换图与((o8vg7h))R-𝖬𝗈𝖽(M,N) 定义 类似
 	* 2025-07-23 重构；问题：
@@ -429,7 +429,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	> 来源：基于 Marsden 力学与对称性导论 p316
 	* f ∈ 𝖢𝖠𝖳(G,𝓒)(Φ,Ψ)，即填入两个群作用 Φ,Ψ
 	* 相关：相应交换图与((o8vg7h))R-𝖬𝗈𝖽(M,N) 定义 类似
-* {old}# 无穷维 Lie 群：G ∈ 𝖫𝗂𝖾 有限维，H ∈ ℂ-𝖧𝗂𝗅𝖻 无穷维，则群作用 ρ ∈ 𝖦𝗋𝗉(G,U(H)ˣ) 即 G → H → H 导出 Lie[ρ]: 𝔤 → D_G → D_G。其中 D_G ⊂ H 仅为稠密真子集，我想到的 G,H,ρ 例子是什么（基于 Marsden 力学与对称性导论 p323）
+> （已停用{old}）无穷维 Lie 群：G ∈ 𝖫𝗂𝖾 有限维，H ∈ ℂ-𝖧𝗂𝗅𝖻 无穷维，则群作用 ρ ∈ 𝖦𝗋𝗉(G,U(H)ˣ) 即 G → H → H 导出 Lie[ρ]: 𝔤 → D_G → D_G。其中 D_G ⊂ H 仅为稠密真子集，我想到的 G,H,ρ 例子是什么（基于 Marsden 力学与对称性导论 p323）
 	* H = L²(ℝ), G = ℝ, ρ 为平移算子
 	* 此时 Lie[ρ]: a ↦ adₓ，D_G = L²∩C¹(ℝ) 有光滑性要求
 	* 2025-09-01 重构：题面太长
@@ -443,7 +443,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 * 无穷维 Lie 群：M ∈ 𝖣𝗂𝖿𝖿, 有 Lie 代数同构 Lie(𝖣𝗂𝖿𝖿(M)ˣ) ≅ [?] ∈ 𝗅𝗂𝖾（Marsden 力学与对称性导论 p324）{o8ha80}
 	* Lie(𝖣𝗂𝖿𝖿(M)ˣ) ≅ -ΓTM
 	* 注意二者的 [-,-] 相差负号
-* # 无穷维 Lie 群：M ∈ 𝖣𝗂𝖿𝖿, 双射 Lie(𝖣𝗂𝖿𝖿(M)ˣ) ≈ ΓTM ∈ 𝗅𝗂𝖾 对应的 Lie bracket [-,-] 之间是什么关系（Marsden 力学与对称性导论 p324）{o8ha82}
+> （已停用）无穷维 Lie 群：M ∈ 𝖣𝗂𝖿𝖿, 双射 Lie(𝖣𝗂𝖿𝖿(M)ˣ) ≈ ΓTM ∈ 𝗅𝗂𝖾 对应的 Lie bracket [-,-] 之间是什么关系（Marsden 力学与对称性导论 p324）{o8ha82}
 	* 相差负号
 * Lie(𝖣𝗂𝖿𝖿(M)ˣ) ≅ -ΓTM ∈ 𝗅𝗂𝖾 对应的 Lie bracket [X,Y] 关系推导过程 中用到的关键等式是什么{o8ha84}
 	> 背景：切丛作为无穷小自同胚，不仅在集合意义下成立，在 Lie 代数意义下也成立
@@ -465,7 +465,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 * Lie-Poisson bracket：设 𝔤 ∈ 𝗅𝗂𝖾，则 𝔤ᵛ ∈ 𝖯𝗈𝗂𝗌 结构给出方式 {F,H}₊(μ) = [?]，其中 F,H ∈ C^∞(𝔤ᵛ)，μ ∈ 𝔤ᵛ（Marsden 力学与对称性导论 p327）{o8hb7v}
 	* {F,H}(μ) = ⟨μ, [∂F/∂μ, ∂H/∂μ]⟩
 	* 其中 ∂F/∂μ, ∂G/∂μ ∈ T_μᵛ𝔤ᵛ ≅ T_μ𝔤 ≅ 𝔤
-* {old}# Lie-Poisson bracket：设 𝔤 ∈ 𝗅𝗂𝖾，我理解的 𝔤ᵛ ∈ 𝖯𝗈𝗂𝗌 结构 {-,-}₊ 给出方式，双线性型 C^∞(𝔤ᵛ) × C^∞(𝔤ᵛ) → C^∞(𝔤ᵛ, 𝔤ᵛ ⊗ 𝔤 ⊗ 𝔤) 如何给出（基于 Marsden 力学与对称性导论 p327）
+> （已停用{old}）Lie-Poisson bracket：设 𝔤 ∈ 𝗅𝗂𝖾，我理解的 𝔤ᵛ ∈ 𝖯𝗈𝗂𝗌 结构 {-,-}₊ 给出方式，双线性型 C^∞(𝔤ᵛ) × C^∞(𝔤ᵛ) → C^∞(𝔤ᵛ, 𝔤ᵛ ⊗ 𝔤 ⊗ 𝔤) 如何给出（基于 Marsden 力学与对称性导论 p327）
 	* (F,H) ↦ id ⊗ dF ⊗ dH
 	* 其中 dF,dH ∈ Ω¹(𝔤ᵛ) = C^∞(𝔤ᵛ,𝔤ᵛᵛ) = C^∞(𝔤ᵛ,𝔤)
 	* 2026-02-24 改正面表述
@@ -475,7 +475,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	> 来源：基于 Marsden 力学与对称性导论 p327
 	* (F,H) ↦ id ⊗ dF ⊗ dH
 	* 其中 dF,dH ∈ Ω¹(𝔤ᵛ) = C^∞(𝔤ᵛ,𝔤ᵛᵛ) = C^∞(𝔤ᵛ,𝔤)
-* {old}# Lie-Poisson bracket：设 𝔤 ∈ 𝗅𝗂𝖾，我理解的 𝔤ᵛ ∈ 𝖯𝗈𝗂𝗌 结构 {-,-}₊ 给出方式，线性映射 𝔤ᵛ ⊗ 𝔤 ⊗ 𝔤 → ℝ 由哪两个映射的复合给出（基于 Marsden 力学与对称性导论 p327）
+> （已停用{old}）Lie-Poisson bracket：设 𝔤 ∈ 𝗅𝗂𝖾，我理解的 𝔤ᵛ ∈ 𝖯𝗈𝗂𝗌 结构 {-,-}₊ 给出方式，线性映射 𝔤ᵛ ⊗ 𝔤 ⊗ 𝔤 → ℝ 由哪两个映射的复合给出（基于 Marsden 力学与对称性导论 p327）
 	* 2025-09-01 改写题面，原题面太乱
 * 𝔤ᵛ ∈ 𝖯𝗈𝗂𝗌 结构 {-,-}₊ 给出方式，线性映射 𝔤ᵛ ⊗ 𝔤 ⊗ 𝔤 → ℝ 由哪两个映射的复合给出{o8he7m}
 	> 背景：Lie-Poisson bracket，𝔤 ∈ 𝗅𝗂𝖾
@@ -493,7 +493,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 * 无穷维流形的 Poisson-Vlasov bracket：设 M ∈ 𝖯𝗈𝗂𝗌，则 C^∞(M)ᵛ ∈ 𝖯𝗈𝗂𝗌 上的 Poisson bracket 结构通过哪两步给出（Marsden 力学与对称性导论 p329）{o8hf5b}
 	* M ∈ 𝖯𝗈𝗂𝗌 ⇒ C^∞(M) ∈ 𝗅𝗂𝖾 （Poisson manifold 定义）
 	* C^∞(M) ∈ 𝗅𝗂𝖾 ⇒ C^∞(M)ᵛ ∈ 𝖯𝗈𝗂𝗌 （Lie-Poisson bracket）
-* {x}# p330 KdV bracket 没太理解，eqn(10.1.10) 中维数 n > 1 时怎么定义的变上限积分？
+> （已停用{x}）p330 KdV bracket 没太理解，eqn(10.1.10) 中维数 n > 1 时怎么定义的变上限积分？
 	* 
 * 辛流形与 Poisson 流形上均成立 X_H(G) = {G,H}，分别用于定义 X.、{-,-} 中的哪一个（Marsden 力学与对称性导论 p333）{o8ke0q}
 	* 辛流形：用 X. 定义 {-,-}
@@ -507,7 +507,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 * Poisson 流形 P 上的 Poisson structure B ∈ [?1] 满足 {F,G} = B([?2])（Marsden 力学与对称性导论 p340）{o8lk5z}
 	* B ∈ Γ∧²TP
 	* {F,G} = B(dF, dG)
-* # 辛流形 P 上的 Poisson structure B 非退化，满足 B^♯ = (Ω^♭)⁻¹ ∈ 𝖵𝖡([?1],[?2])（Marsden 力学与对称性导论 p341）{o8lk60}
+> （已停用）辛流形 P 上的 Poisson structure B 非退化，满足 B^♯ = (Ω^♭)⁻¹ ∈ 𝖵𝖡([?1],[?2])（Marsden 力学与对称性导论 p341）{o8lk60}
 	* B^♯ = (Ω^♭)⁻¹ ∈ 𝖵𝖡(TᵛP,TP)
 * 辛流形 M 上的 Poisson structure B 非退化，满足 B^♯ = (Ω^♭)⁻¹ ∈ 𝖵𝖡(TᵛM,TM)，其中{o8lk62}
 	> 1. B^♯α ∈ TM 通过 α ∈ TᵛM 与 B ∈ Γ∧²TM 的哪个分量缩并给出
@@ -515,14 +515,14 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	> （Marsden 力学与对称性导论 p341）
 	* 后一个分量
 	* 前一个分量
-* # （2025-06-25）Poisson 流形上的 Schouten bracket [-,-] 定义于 Ω_*(P) = Γ⊕ₖ∧ᵏTP，满足 deg[A,B] = [?]（Marsden 力学与对称性导论 p354）{o8ll1q}
+> （已停用）（2025-06-25）Poisson 流形上的 Schouten bracket [-,-] 定义于 Ω_*(P) = Γ⊕ₖ∧ᵏTP，满足 deg[A,B] = [?]（Marsden 力学与对称性导论 p354）{o8ll1q}
 	* deg[A,B] = deg A + deg B - 1
 * Poisson 流形上的 Schouten bracket [-,-]，满足 [F,G] = [?1], [X,F] = [?2], [X,Y] = [?3]（Marsden 力学与对称性导论 p354）{o8ll1s}
 	> 其中 F,G ∈ C^∞(P), X,Y ∈ ΓTP；[-,-] 定义于 Ω_*(P) = Γ⊕ₖ∧ᵏTP
 	* [F,G] = 0
 	* [X,F] = X(F)
 	* [X,Y] 即 Jacobi-Lie bracket（从而 Schouten bracket 为 Jacobi-Lie bracket 的推广）
-* # （2025-06-25）Poisson 流形上的 Schouten bracket [-,-] 定义于 Ω_*(P) = Γ⊕ₖ∧ᵏTP，满足 [B,A] = [?]·[A,B]（Marsden 力学与对称性导论 p354）{o8ll1u}
+> （已停用）（2025-06-25）Poisson 流形上的 Schouten bracket [-,-] 定义于 Ω_*(P) = Γ⊕ₖ∧ᵏTP，满足 [B,A] = [?]·[A,B]（Marsden 力学与对称性导论 p354）{o8ll1u}
 	* [B,A] = (-1)^[deg(A)deg(B)]·[A,B]
 * Schouten bracket [-,-] 满足 deg[A,B] = [?1]，[B,A] = [?2]·[A,B]{p6pf80}
 	> 背景：定义于 Ω_*(P) = Γ⊕ₖ∧ᵏTP，P 为 Poisson 流形
@@ -554,7 +554,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* 𝔤ᵛ 可能只是 𝔤 的非退化对偶（non-degenerate duality）
 * Poisson 流形：设 𝔤,𝔥 ∈ 𝗅𝗂𝖾，α ∈ 𝖵𝖾𝖼(𝔤,𝔥)，则 α ∈ 𝗅𝗂𝖾(𝔤,𝔥) ⇔ αᵛ ∈ 𝖯𝗈𝗂𝗌(𝔥ᵛ₊,𝔤ᵛ₊) 的充分条件为（Marsden 力学与对称性导论 p366）{o8nk9p}
 	* ∃G,H ∈ 𝖫𝗂𝖾 使 𝔤 = Lie(G), 𝔥 = Lie(H)
-* {old}# momentum mapping：设 f ∈ 𝖫𝗂𝖾(G,H)，有 Lie[f]ᵛ ∈ 𝖯𝗈𝗂𝗌(𝔥ᵛ₊,𝔤ᵛ₊) 是哪一个群作用（G 作用于 𝔥ᵛ₊）的 momentum mapping（Marsden 力学与对称性导论 p375）
+> （已停用{old}）momentum mapping：设 f ∈ 𝖫𝗂𝖾(G,H)，有 Lie[f]ᵛ ∈ 𝖯𝗈𝗂𝗌(𝔥ᵛ₊,𝔤ᵛ₊) 是哪一个群作用（G 作用于 𝔥ᵛ₊）的 momentum mapping（Marsden 力学与对称性导论 p375）
 	* ρ = Ad⁻ᵛ∘f ∈ 𝖫𝗂𝖾(G,𝖯𝗈𝗂𝗌(𝔥ᵛ₊)ˣ)
 	* 注：前面的例 (e) 似乎讨论的是 f = Id 的特殊情形，此时 momentum mapping Lie[f]ᵛ = Id
 	* 2026-03-04 改正面表述
@@ -589,7 +589,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* H. = 𝓟 ∈ 𝗅𝗂𝖾(-ΓTQ, C^∞(TᵛQ)) ，映射通过 fiber paring 给出
 	* 注：这里用到了 Lie(𝖣𝗂𝖿𝖿(Q)˟) = -ΓTQ
 	* 交换图见 file:///home/yzh/oc-ptis/attached/o8sk7g-MomentumMap-CotLift-SRS.xoj
-* {old}# 对称性经过 cotangent lift 后的 momentum mapping：设 Q 上有对称性 σ ∈ 𝗅𝗂𝖾(𝔤,-ΓTQ)，cotangent lift 后得 TᵛQ 上对称性 ∈ 𝗅𝗂𝖾(𝔤,-ΓTTᵛQ)，其 momentum mapping 所对应 H. ∈ 𝗅𝗂𝖾(𝔤,C^∞(TᵛQ)) 的给出思路（基于 Marsden 力学与对称性导论 p386）
+> （已停用{old}）对称性经过 cotangent lift 后的 momentum mapping：设 Q 上有对称性 σ ∈ 𝗅𝗂𝖾(𝔤,-ΓTQ)，cotangent lift 后得 TᵛQ 上对称性 ∈ 𝗅𝗂𝖾(𝔤,-ΓTTᵛQ)，其 momentum mapping 所对应 H. ∈ 𝗅𝗂𝖾(𝔤,C^∞(TᵛQ)) 的给出思路（基于 Marsden 力学与对称性导论 p386）
 	* 
 * σ ∈ 𝗅𝗂𝖾(𝔤,-ΓTQ) cotangent lift 后得 ... ∈ 𝗅𝗂𝖾(𝔤,-ΓTTᵛQ)，后者的 momentum mapping 如何给出{o8rl8n}
 	> （注）前者为 Q 上对称性，后者为 TᵛQ 上对称性 
@@ -600,9 +600,9 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* 后者也视为某种对称性((o8p94r))，利用其 Hamiltonian 𝓟 ∈ 𝗅𝗂𝖾(-ΓTQ, C^∞(TᵛQ))
 		* 该 Hamiltonian 形式无需回忆
 	* 交换图见 file:///home/yzh/oc-ptis/attached/o8sk7g-MomentumMap-CotLift-SRS.xoj
-* # 向量场的 cotangent lift ∈ 𝗅𝗂𝖾(ΓTQ,ΓTTᵛQ) 计算思路（基于 Marsden 力学与对称性导论 p386）{o8rm2k}
+> （已停用）向量场的 cotangent lift ∈ 𝗅𝗂𝖾(ΓTQ,ΓTTᵛQ) 计算思路（基于 Marsden 力学与对称性导论 p386）{o8rm2k}
 	* 该映射视为 Lie[T⁻ᵛ]，来自自同胚 cotangent lift T⁻ᵛ ∈ 𝖫𝗂𝖾(𝖣𝗂𝖿𝖿(Q)˟,𝖲𝗒𝗆𝗉(TᵛQ)˟)
-* # 考虑自同胚的 cotangent lift T⁻ᵛ ∈ 𝖫𝗂𝖾(𝖣𝗂𝖿𝖿(Q)˟,𝖲𝗒𝗆𝗉(TᵛQ)˟)，相应 Lie[T⁻ᵛ] 计算思路（基于 Marsden 力学与对称性导论 p386）{o8rm2m}
+> （已停用）考虑自同胚的 cotangent lift T⁻ᵛ ∈ 𝖫𝗂𝖾(𝖣𝗂𝖿𝖿(Q)˟,𝖲𝗒𝗆𝗉(TᵛQ)˟)，相应 Lie[T⁻ᵛ] 计算思路（基于 Marsden 力学与对称性导论 p386）{o8rm2m}
 	* 利用 ((o8p94r))T⁻ᵛ 的 Hamiltonian H. = 𝓟 ∈ 𝗅𝗂𝖾(-ΓTQ, C^∞(TᵛQ))
 	* （依据 momentum mapping 定义方式）再复合 X. ∈ 𝗅𝗂𝖾(C^∞(TᵛQ),-ΓTTᵛQ) 即得 Lie[T⁻ᵛ]
 	* 注：直接记忆结果的版本((o8p94n))
@@ -615,7 +615,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* 注意负号
 	* 注：C^∞(Q)₀ = Lie(C^∞(Q)) ∈ 𝗅𝗂𝖾 上的 Lie bracket [-,-] = 0
 	* 注：若日后发现回忆困难，可改为仅重读
-* {old}# momentum fiber translation 对应的 momentum mapping：群作用 ρ ∈ 𝖫𝗂𝖾(C^∞(Q),𝖲𝗒𝗆𝗉(TᵛQ)˟)，f ↦ ((q,p) ↦ [?]) 对应 H. = -π* = -C^∞[π]: h ↦ -h∘π ∈ 𝗅𝗂𝖾(C^∞(Q)₀,C^∞(TᵛQ))（Marsden 力学与对称性导论 p387-388）
+> （已停用{old}）momentum fiber translation 对应的 momentum mapping：群作用 ρ ∈ 𝖫𝗂𝖾(C^∞(Q),𝖲𝗒𝗆𝗉(TᵛQ)˟)，f ↦ ((q,p) ↦ [?]) 对应 H. = -π* = -C^∞[π]: h ↦ -h∘π ∈ 𝗅𝗂𝖾(C^∞(Q)₀,C^∞(TᵛQ))（Marsden 力学与对称性导论 p387-388）
 	* 
 * 群作用 ρ: f ↦ ((q,p) ↦ (q, p + [?])) 对应 H. = -π* ∈ 𝗅𝗂𝖾(C^∞(Q)₀,C^∞(TᵛQ)){o95a3a}
 	> 注 1. 其中 ρ ∈ 𝖫𝗂𝖾(C^∞(Q),𝖲𝗒𝗆𝗉(TᵛQ)˟) 为 momentum fiber translation
@@ -641,7 +641,7 @@ x}# Marsden, Introduction to Mechanics and Symmetry
 	* 要点：H. - H'. ∈ 𝖵𝖾𝖼(𝔤,ker X.)
 	* （无需回忆）Casimir function (ker X.) 不影响 C^∞(M) 上的 {-,-} 结构
 	* 注：相应地 P - P' ∈ (ker X.) ⊗ 𝔤ᵛ₊
-* {old}# momentum mapping，C^∞[P] ∈ 𝗅𝗂𝖾(C^∞(𝔤ᵛ₊),C^∞(M)) 与 H. ∈ 𝗅𝗂𝖾(𝔤,C^∞(M)) 的关系，我用了哪个交换图表示 [?1]，二者复合所差的映射 [?2] ∈ 𝗅𝗂𝖾(𝔤,C^∞(𝔤ᵛ₊))（Marsden 力学与对称性导论 p405）
+> （已停用{old}）momentum mapping，C^∞[P] ∈ 𝗅𝗂𝖾(C^∞(𝔤ᵛ₊),C^∞(M)) 与 H. ∈ 𝗅𝗂𝖾(𝔤,C^∞(M)) 的关系，我用了哪个交换图表示 [?1]，二者复合所差的映射 [?2] ∈ 𝗅𝗂𝖾(𝔤,C^∞(𝔤ᵛ₊))（Marsden 力学与对称性导论 p405）
 	* 
 * C^∞[P] ∘ [?1] = H.，我用了什么交换图表示 [?2]{o8sl1f}
 	> （注）背景：momentum mapping P ∈ 𝖯𝗈𝗂𝗌(M,𝔤ᵛ₊)

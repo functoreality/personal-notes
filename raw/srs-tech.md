@@ -356,7 +356,7 @@ n96i8s}浏览器中复制代码块，方式
 * Gitee repo wiki 与人合作编辑同一个文件，需注意{nakb5m}
 	* 他人网页端的后续编辑会覆盖掉我之前的 git push
 	* 注：目前与 hx 合作，暂定解决方案：若编辑同一个文件，我在微信上发过去
-* {old}# Gitee Markdown 渲染，如果发现含复杂「行内」公式的段落渲染失败（比如公式开始位置识别错误，公式内容被当成普通文本、普通文本被按公式渲染），可考虑
+> （已停用{old}）Gitee Markdown 渲染，如果发现含复杂「行内」公式的段落渲染失败（比如公式开始位置识别错误，公式内容被当成普通文本、普通文本被按公式渲染），可考虑
 	* 2025-07-14 重构卡片正面，因关注点被公式吸引（「」符号强度不如模式匹配）
 * Gitee Markdown，若某段文本渲染 被复杂行内公式 干扰，考虑如何解决{o3kg5e}
 	> 情形例：公式开始位置识别错误，公式内容被当成普通文本、普通文本被按公式渲染
@@ -439,7 +439,7 @@ n96i8s}浏览器中复制代码块，方式
 	* 注意 -c 不是 -s，后者指 summarize
 * Linux 终端 `ls -l folder` 会列出该文件夹下文件的信息，若希望列该文件夹本身的信息，命令应该如何修改{o7eh1f}
 	* ls -dl folder
-* # （仅重读）当前电脑 KDE 桌面，任务栏图标在什么设置下变窄{oboh0q}
+> （已停用）（仅重读）当前电脑 KDE 桌面，任务栏图标在什么设置下变窄{oboh0q}
 	* 任务栏 - Configure - Apperance - Group 选 group by program name - 不选 open groups in popups
 * Git 运行原理：如何基于 diff.txt 修改 old.py 使之与 new.py 相同 [?1]，以及改 new.py 使之与 old.py 相同 [?2]{ocig8r}
 	> （注）假定 diff.txt 的产生方式为 `diff old.py new.py > diff.txt`
@@ -487,7 +487,7 @@ n96i8s}浏览器中复制代码块，方式
 * Linux 上创建特定尺寸的空白文件（用来占磁盘），可用命令的大意{pa7f6q}
 	* 用 dd 命令读 /dev/zero 写入空白文件
 	* （无需回忆）具体命令 dd if=/dev/zero of=./bigfile.bin bs=1M count=1024 status=progress
-* # 当前电脑若待机失败，如何解决{pafm50}
+> （已停用）当前电脑若待机失败，如何解决{pafm50}
 	* 运行一次 tlp setcharge 命令
 * sudo apt purge 后，如何进一步卸载之前随之自动安装的包{pcpi9x}
 	* apt autoremove --purge
@@ -498,7 +498,7 @@ n96i8s}浏览器中复制代码块，方式
 	* 文件 r，文件 w，文件夹 w，文件夹 w
 * Linux 文件权限，其他用户即使无文件 w 权限，仍可能如何危害文件安全{q35m9j}
 	* 若有文件夹 w 权限，则可删除文件
-## TypeScript
+### TypeScript
 * TypeScript 运算符优先级 ?: vs =>：语句 a ? b : (c) => d 加括号方式{q9ke52}
 	* a ? b : ((c) => d)
 * TypeScript Promise<T>：作返回值时函数需加修饰 [?1]，取出其中元素语句 [?2]{q9ke54}

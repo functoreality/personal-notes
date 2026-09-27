@@ -113,7 +113,7 @@ x}# 统计模型与计算方法 张成 2022fall
 * RKHS 的再生性质：⟨f,k(·,x)⟩ = [?]，特别地 ⟨k(·,x),k(·,y)⟩ = [?]（统计计算 lect15，p26）{n6of7l}
 	* ⟨f,k(·,x)⟩ = f(x)
 	* ⟨k(·,x),k(·,y)⟩ = k(x,y)
-* # 备用：关于 RKHS 的知乎介绍{n6of7y}
+> （已停用）备用：关于 RKHS 的知乎介绍{n6of7y}
 	* [link](https://zhuanlan.zhihu.com/p/352966538)
 * SVGD 中涉及的 kernelized Stein discrepancy KSD(q‖p) = [?]，其中 δ_{pq} = [?]（统计计算 lect15，p27）{n6of8v}
 	* KSD(q‖p) = √{𝔼_{x,y∼q}[δ_{pq}(x)ᵀk(x,y)δ_{pq}(y)]}

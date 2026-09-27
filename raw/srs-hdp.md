@@ -83,7 +83,7 @@ x}# 课程教材：Roman Vershynin, High-Dimensional Probability
 	* 独立
 	* 𝔼Xᵢ = 0
 	* sub-exponential ‖Xᵢ‖_ψ₁ ≤ K
-* {x}# 高维 ‖X‖₂ ≈ √n 变化小
+> （已停用{x}）高维 ‖X‖₂ ≈ √n 变化小
 	> 具体条件：坐标 Xᵢ 独立、𝔼Xᵢ² = 1、`‖Xᵢ‖_ψ₂ ≤ K`
 	> 具体结论：`‖(‖X‖₂-√n)‖_ψ₂ ≤ CK²`
 	> 来源：HDP p43
@@ -106,7 +106,7 @@ x}# 课程教材：Roman Vershynin, High-Dimensional Probability
 	> 来源：HDP p43
 	> （旧题面）高维概率论：设随机向量 X = (X₁,…,Xₙ) 各坐标独立，K = maxᵢ‖Xᵢ‖_ψ₂，𝔼Xᵢ² = 1，则 ‖X‖₂ ≈ √n，有严格估计‖(‖X‖₂-√n)‖_ψ₂ ≤ [?]（HDP p43）
 	* ‖(‖X‖₂-√n)‖_{ψ₂} ≤ CK²
-* {x}# 高维概率论：设随机向量 X = (X₁,…,Xₙ) 各坐标独立，K = maxᵢ‖Xᵢ‖_ψ₂，𝔼Xᵢ² = 1，则 ‖(‖X‖₂-√n)‖_ψ₂ ≤ CK²，证明过程整体思路（3 步，HDP p43）
+> （已停用{x}）高维概率论：设随机向量 X = (X₁,…,Xₙ) 各坐标独立，K = maxᵢ‖Xᵢ‖_ψ₂，𝔼Xᵢ² = 1，则 ‖(‖X‖₂-√n)‖_ψ₂ ≤ CK²，证明过程整体思路（3 步，HDP p43）
 	* 估 ‖Xᵢ² - 𝔼Xᵢ²‖_{ψ₁}
 	* 估 ‖X‖₂²/n - 1 = ⊕(Xᵢ² - 𝔼Xᵢ²) 的 tail（用 Bernstein 不等式((o62n4m))）
 	* 用简单不等式估 ‖X‖₂/√n - 1 的 tail
@@ -171,7 +171,7 @@ x}# 课程教材：Roman Vershynin, High-Dimensional Probability
 	* 截断位置 R 待定（在证明的最后选取）
 * 高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，K = 𝔼∑aᵢⱼ(Uᵢ⁺ + Uᵢ⁻)(Vⱼ⁺ + Vⱼ⁻) 中有界项 S₁ = 𝔼∑aᵢⱼUᵢ⁻Vⱼ⁻ 的估计方式（HDP p61）{o6gm7a}
 	* 用定理的假设，S₁ ≤ 𝔼R·R
-* {old}# 高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，K = 𝔼∑aᵢⱼ(Uᵢ⁺ + Uᵢ⁻)(Vⱼ⁺ + Vⱼ⁻) 中 S₂ = 𝔼∑aᵢⱼUᵢ⁺Vⱼ⁻ 的估计如何用 maxᵢ‖Uᵢ⁺‖_L²，maxⱼ‖Vⱼ⁻‖_L² 给出，两步（HDP p61）
+> （已停用{old}）高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，K = 𝔼∑aᵢⱼ(Uᵢ⁺ + Uᵢ⁻)(Vⱼ⁺ + Vⱼ⁻) 中 S₂ = 𝔼∑aᵢⱼUᵢ⁺Vⱼ⁻ 的估计如何用 maxᵢ‖Uᵢ⁺‖_L²，maxⱼ‖Vⱼ⁻‖_L² 给出，两步（HDP p61）
 	* 改写为 S₂ = 𝔼∑aᵢⱼUᵢ⁺Vⱼ⁻ = ∑aᵢⱼ⟨Uᵢ⁺,Vⱼ⁻⟩_L²
 	* 之后用该命题的结论 ≤ K maxᵢ‖Uᵢ⁺‖_L² maxⱼ‖Vⱼ⁻‖_L²
 	* 2025-08-17 重构：回忆困难
@@ -183,7 +183,7 @@ x}# 课程教材：Roman Vershynin, High-Dimensional Probability
 	> 来源：HDP p61
 	* 有界项：用定理条件，S₁ ≤ 𝔼R·R
 	* 无界项：用定理结论，S₂ ≤ K maxᵢ‖Uᵢ⁺‖_L² maxⱼ‖Vⱼ⁻‖_L²；S₄ 同理
-* {old}# 高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，「无界」随机变量 ‖Uᵢ⁺‖_L² 的估计如何给出（HDP p61）
+> （已停用{old}）高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，「无界」随机变量 ‖Uᵢ⁺‖_L² 的估计如何给出（HDP p61）
 	* 用概率密度函数 φ(x) 表达式（之后((o7p97r))分部积分）
 	* 注：（粗略说法）有界部分用条件（‖uᵢ‖ ≤ 1），无界部分用构造（g ~ N(0,Iₙ)）
 * ‖Uᵢ⁻‖_L²（有界）、‖Uᵢ⁺‖_L²（无界）分别如何估计{o6gm7e}
@@ -194,7 +194,7 @@ x}# 课程教材：Roman Vershynin, High-Dimensional Probability
 	* 注：（粗略说法）有界部分用条件（‖uᵢ‖ ≤ 1），无界部分用构造（g ~ N(0,Iₙ)）
 * 高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，「无界」随机变量 ‖Uᵢ⁺‖_L² ≤ [?] 估计出的上界值（HDP p61）{o6gm7g}
 	* 2/R
-* # 高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，「有界」随机变量 ‖Uᵢ⁻‖_L² 的估计如何给出（HDP p61）{o6gm7i}
+> （已停用）高维概率论 Grothendieck 不等式：若 |∑aᵢⱼxᵢyⱼ| ≤ maxᵢ|xᵢ|maxⱼ|yⱼ| 则 |∑aᵢⱼ⟨uᵢ,vⱼ⟩| ≤ Kmaxᵢ‖uᵢ‖maxⱼ‖vⱼ‖，∀uᵢ,vⱼ ∈ H ∈ 𝖧𝗂𝗅𝖻，K ≤ 288 的证明第四步，「有界」随机变量 ‖Uᵢ⁻‖_L² 的估计如何给出（HDP p61）{o6gm7i}
 	* ‖Uᵢ⁻‖_L² ≤ ‖Uᵢ‖_L² = 1
 * 高维概率论 Grothendieck 等式，u,v ∈ Sⁿ⁻¹, g ∼ N(0,Iₙ)，则 𝔼sgn⟨g,u⟩sgn⟨g,v⟩ = [?]，用 ⟨u,v⟩ 表示（HDP p69）{o6hn1t}
 	* 𝔼sgn⟨g,u⟩sgn⟨g,v⟩ = (2/π)arcsin⟨u,v⟩
@@ -211,7 +211,7 @@ x}# 课程教材：Roman Vershynin, High-Dimensional Probability
 	* 设 aₖ = bₖ|bₖ|
 	* Φ: u ↦ ⊕ₖ|bₖ|⊗ᵏu = [|bₖ|u^{⊗k}]ₖ
 	* Ψ: u ↦ ⊕ₖbₖ⊗ᵏu = [bₖu^{⊗k}]ₖ
-* # Kernel trick，希望线性化 f(x) = ∑ₖaₖxᵏ ∈ C^ω(ℝ)（不保证系数非负），若可以构造 H ∈ 𝖧𝗂𝗅𝖻 与「两个」变换 Φ,Ψ: Sⁿ⁻¹ → S(H)，使得 r⟨Φ(u),Ψ(v)⟩_H = f(⟨u,v⟩)，∀u,v ∈ Sⁿ⁻¹，则要求 r = [?]（HDP p72）{o6ib52}
+> （已停用）Kernel trick，希望线性化 f(x) = ∑ₖaₖxᵏ ∈ C^ω(ℝ)（不保证系数非负），若可以构造 H ∈ 𝖧𝗂𝗅𝖻 与「两个」变换 Φ,Ψ: Sⁿ⁻¹ → S(H)，使得 r⟨Φ(u),Ψ(v)⟩_H = f(⟨u,v⟩)，∀u,v ∈ Sⁿ⁻¹，则要求 r = [?]（HDP p72）{o6ib52}
 	* r = ∑ₖ|aₖ|
 	* 等价说法：设 aₖ = bₖ|bₖ|，r = ∑ₖbₖ²
 	* （评）制卡复盘：问题选择不对，具体取值可现场计算，需要记住的其实是存在 r 保单位范数这件事

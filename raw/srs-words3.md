@@ -71,7 +71,7 @@ x}# 英语单词 part 3
 * 单词读音（英美）：synopsis{pa8c19}
 	* 英/sɪˈnɒpsɪs/ 美/sɪˈnɑːpsɪs/
 	* 注意重音，o
-* {old}# 单词含义：synopsis
+> （已停用{old}）单词含义：synopsis
 	* For each title there is a brief synopsis of the book.
 	* (著作或作品的)大纲，提要，概要，梗概
 * 单词含义比较：synopsis，syllabus{pa8c1b}
@@ -208,7 +208,7 @@ x}# 英语单词 part 3
 * 单词含义（名词，3 种联句）：graft{pcmb6d}
 	* The graft of planting trees was hard graft, unlike the quick gains from political graft.
 	* （植物）嫁接/（器官）移植，艰苦的工作，贿赂
-* {x}# 所用 prompt
+> （已停用{x}）所用 prompt
 	* graft 作为名词有多种含义（嫁接/移植，重活，贿赂）。请给我造一个英文句子，其中同时用到这几种含义。我希望将这个句子用于教学，因此希望 1. 这个句子能简单一些，2. 几种含义的出现顺序无关紧要，3. 句子应该描述一个完整的画面或者场景，不应该是多个独立场景的简单并列。
 	* 提示词要点：1. 列出含义列表；如果只说“三种含义”，会取“重活”之外的 3 种；2. 要开 CoT；3. 可多试几次。
 	* v1 不够好：In the small orchard, the graft of a new shoot onto the old tree was backbreaking graft, but the honest farmer never turned to graft to ease his work.
@@ -321,3 +321,8 @@ x}# 英语单词 part 3
 	* /ˌkəʊəˈles/
 * 单词含义（计算机）：coalesce{q9kf4w}
 	* 空值合并函数
+* 单词读音：scheme，schema{q9rh9u}
+	* /ˈskiːm/，/ˈskiːmə/
+	* 后者注意 a
+* 单词含义：scheme，schema{q9rh9w}
+	* （日常）方案，（术语，心理/哲学/计算机等）模式

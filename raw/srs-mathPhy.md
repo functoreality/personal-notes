@@ -202,7 +202,7 @@ x}# 数学、物理等相关内容
 	* 设 ϵₙ(K) 对应点集 Kₙ = {x₁,…,x_{2ⁿ}} ⊂ K
 	* E: 近似保距投影，根据 Johnson-Lindenstrauss 引理
 	* D: Lipschitz 延拓（从 E(xᵢ) ↦ xᵢ 延拓为 ℝ²⁶ⁿ → H），根据 Kirszbraun 扩张定理
-* # （无需记忆）基本群 π₁(Sⁿ) = 0 证明主要思路 [?1]，难点在于 [?2]（n ≥ 2）{p57n40}
+> （已停用）（无需记忆）基本群 π₁(Sⁿ) = 0 证明主要思路 [?1]，难点在于 [?2]（n ≥ 2）{p57n40}
 	> 来源：Hatcher 代数拓扑 p35 prop1.14
 	* 设环路 f 不经过 x，利用 π₁(Sⁿ - {x}) = π₁(ℝⁿ) = 0
 	* f 为 space-filling curve，导致不存在这样的 x
@@ -326,7 +326,7 @@ x}# 数学、物理等相关内容
 	* 双射 𝓓(F(X),Y) → 𝓒(X,G(Y))
 	* 示意图 file:///home/yzh/oc-ptis/attached/o8vg0u-adjoint-functor-SRS.xoj
 ## 微分流形
-* # 微分流形中 Lie bracket 定义：设 X,Y ∈ ΓTM，则 [X,Y] ∈ ΓTM 定义为{n9h930}
+> （已停用）微分流形中 Lie bracket 定义：设 X,Y ∈ ΓTM，则 [X,Y] ∈ ΓTM 定义为{n9h930}
 	* 设 f ∈ C^∞(M)，定义 [X,Y]f = XYf - YXf
 	* 由于二阶导数项被消掉，事实上有 [X,Y] ∈ ΓTM
 * 微分流形中 Lie bracket 定义：设 X,Y ∈ ΓTM，则 [X,Y] 定义为（只涉及 TₓM 空间的原始定义）{n9h930b}
@@ -340,7 +340,7 @@ x}# 数学、物理等相关内容
 * 微分流形中 Lie derivative 与 Lie bracket 关系：设 X,Y ∈ ΓTM，则 (L_X)Y = [?]{n9h934}
 	* (L_X)Y = [X,Y]
 	* src: GTM218 p229，或 [Jost]-RiemannianManifold p73
-* {old}# 微分流形中 Cartan's magic formula：X ∈ ΓTM，ω ∈ Ωᵏ(M)，(L_X)ω = [?]
+> （已停用{old}）微分流形中 Cartan's magic formula：X ∈ ΓTM，ω ∈ Ωᵏ(M)，(L_X)ω = [?]
 	* 
 * (L_X)ω = [?]{n9h936}
 	> （注）X ∈ ΓTM，ω ∈ Ωᵏ(M)
@@ -413,7 +413,7 @@ x}# 数学、物理等相关内容
 * 设 π: E → M vector bundle, 则其 vertical tangent bundle π₂: VE → E 同构下等价的定义，用 pullback bundle{na1i8c}
 	* (VE → E) ≅ π⁻¹(π: E → M)
 ### 余切丛、辛流形与 Hamilton 力学
-* # 余切丛作为辛流形：M = TᵛQ 上的 tautological 1-form τ ∈ Ω¹(TᵛQ) 定义（我自己分析的 coordinate-free 版本）{na2e90}
+> （已停用）余切丛作为辛流形：M = TᵛQ 上的 tautological 1-form τ ∈ Ω¹(TᵛQ) 定义（我自己分析的 coordinate-free 版本）{na2e90}
 	* 只需给出 TTᵛQ → ℝ
 	* 使用二映射 π₂: TTᵛQ → TᵛQ，T[π₁]: TTᵛQ → TQ
 	* 二映射下结果做 pairing 即得 TTᵛQ → ℝ
@@ -425,7 +425,7 @@ x}# 数学、物理等相关内容
 * 余切丛作为辛流形：M = TᵛQ 上的 tautological 1-form τ: TTᵛQ → ℝ 在局部坐标下为 (q,p;v,f) ↦ p(v)，（我自己分析的）相应不依赖局部坐标的定义方式为{na2e90c}
 	* 使用二映射 π₂: TTᵛQ → TᵛQ，T[π₁]: TTᵛQ → TQ
 	* 二映射下结果做 pairing 即得 TTᵛQ → ℝ
-* {old}# 余切丛作为辛流形：M = TᵛQ 上的 tautological 1-form τ ∈ Ω¹(TᵛQ) 在局部坐标下表达式（「无」求和号版本，非映射形式）
+> （已停用{old}）余切丛作为辛流形：M = TᵛQ 上的 tautological 1-form τ ∈ Ω¹(TᵛQ) 在局部坐标下表达式（「无」求和号版本，非映射形式）
 	* 2025-07-12 修改正面
 * τ ∈ Ω¹(TᵛQ) 在局部坐标下表达式，形如 (q,p;v,f){na2e92b}
 	> 设定：余切丛作为辛流形，τ 为 M = TᵛQ 上的 tautological 1-form

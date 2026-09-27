@@ -1,8 +1,8 @@
 x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* 2025-09-04 从 Marsden-intro2mechSym.md 独立
-* # 设 ϕ ∈ 𝖣𝗂𝖿𝖿(B,S)，(B,G)、(S,g) 均为黎曼流形，X ∈ B，有 T_X[ϕ] ∈ 𝖵𝖾𝖼(T_X(B),Tₓ(S))，为何可定义 T_X[ϕ]ᵀ ∈ 𝖵𝖾𝖼(Tₓ(S),T_X(B))（Marsden 弹性力学基础 p49）{o7de30}
+> （已停用）设 ϕ ∈ 𝖣𝗂𝖿𝖿(B,S)，(B,G)、(S,g) 均为黎曼流形，X ∈ B，有 T_X[ϕ] ∈ 𝖵𝖾𝖼(T_X(B),Tₓ(S))，为何可定义 T_X[ϕ]ᵀ ∈ 𝖵𝖾𝖼(Tₓ(S),T_X(B))（Marsden 弹性力学基础 p49）{o7de30}
 	* 
-* {old}# 设 ϕ ∈ 𝖣𝗂𝖿𝖿(B,S)，(B,G)、(S,g) 黎曼流形，则 Green 形变张量 C ∈ 𝖵𝖡([?],[?])（Marsden 弹性力学基础 p49）
+> （已停用{old}）设 ϕ ∈ 𝖣𝗂𝖿𝖿(B,S)，(B,G)、(S,g) 黎曼流形，则 Green 形变张量 C ∈ 𝖵𝖡([?],[?])（Marsden 弹性力学基础 p49）
 	* C ∈ 𝖵𝖡(TB,TB) = 𝖵𝖡(TB)
 	* 即：在「参考位形」空间 的切空间 定义的线性变换
 	* 2025-07-30 重构：原问法退化到纯机械记忆
@@ -96,7 +96,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* 协变导数 ∇F = dF ∈ ΓTᵛM ；基于定义不难得出
 * 光滑流形 M 上联络 ∇ 作用于 (p,q)-型张量 t 后，得到 [?] 型张量 ∇t（Marsden 弹性力学基础 p76）{o7fe3g}
 	* (p,q+1)
-* {old}# 光滑流形 M 上联络 ∇ 作用于 (p,q)-型张量 t 后得张量 ∇t，其在局部坐标 {xⁱ} 下的计算公式（利用 Christoffel symbol）有 [?1] 项为正，[?2] 项为负（Marsden 弹性力学基础 p77）
+> （已停用{old}）光滑流形 M 上联络 ∇ 作用于 (p,q)-型张量 t 后得张量 ∇t，其在局部坐标 {xⁱ} 下的计算公式（利用 Christoffel symbol）有 [?1] 项为正，[?2] 项为负（Marsden 弹性力学基础 p77）
 	* 
 * ∇t 计算公式有 [?1] 项为正，[?2] 项为负{o7fe3i}
 	> （注）要求：在局部坐标 {xⁱ} 下计算，利用 γⁱⱼₖ
@@ -111,7 +111,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* 注意符号，p + 1 正 q 负
 * 光滑流形 M 上取定联络 ∇，对 (p,q)-型张量 t，其散度 div t 由协变导数 ∇t 做缩并得到，其中被缩并的协变指标是哪一个（Marsden 弹性力学基础 p78）{o7fe3k}
 	* 最后一个
-* {old}# 光滑流形 M 上取定联络 ∇，对 (p,q)-型张量 t，如何定义其散度 div t（Marsden 弹性力学基础 p78）
+> （已停用{old}）光滑流形 M 上取定联络 ∇，对 (p,q)-型张量 t，如何定义其散度 div t（Marsden 弹性力学基础 p78）
 	* ∇t 中新引入的指标与「最后一个」协变指标缩并
 * 黎曼流形 (M,g) 上曲率张量 R 为 [?]-型张量（Marsden 弹性力学基础 p80）{o7fe6a}
 	* (1,3)-型
@@ -120,7 +120,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* 相关：可比较 ((o7f870)) Tor(W,Y) = ∇_WY - ∇_YW - [W,Y]
 * 黎曼流形 (M,g) 上曲率张量 R 在局部坐标 {xⁱ} 下的计算公式（利用 Christoffel symbol）有几项为正、几项为负（Marsden 弹性力学基础 p80）{o7fe6e}
 	* 2，2
-* # 黎曼流形 (M,g) 上曲率张量 Rˡᵢⱼₖ 的计算公式（利用 Christoffel symbol），我的记忆方式，Rˡᵢⱼₖ 关键角标 [?] 的项为正，[?] 的项为负（Marsden 弹性力学基础 p80）{o7fe6g}
+> （已停用）黎曼流形 (M,g) 上曲率张量 Rˡᵢⱼₖ 的计算公式（利用 Christoffel symbol），我的记忆方式，Rˡᵢⱼₖ 关键角标 [?] 的项为正，[?] 的项为负（Marsden 弹性力学基础 p80）{o7fe6g}
 	* j，k
 * 黎曼流形 (M,g) 上曲率张量 R 在局部坐标 {xⁱ} 下的计算公式（利用 Christoffel symbol，j 正 k 负各两项）Rˡᵢⱼₖ = [?]（Marsden 弹性力学基础 p80）{o7fe6i}
 	* Rˡᵢⱼₖ = ∂ⱼγˡₖᵢ - ∂ₖγˡⱼᵢ + γˡⱼₑγᵉₖᵢ - γˡₖₑγᵉⱼᵢ
@@ -139,7 +139,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 * 黎曼流形 (M,g) 上的无穷小 isometry w ∈ ΓTM 定义（Marsden 弹性力学基础 p99）{o7gd6v}
 	* Lie 导数 (𝓛_w)g = 0
 	* 注：不是协变导数 (∇_w)g
-* {old}# 黎曼流形 (M,g) 上的无穷小 isometry w ∈ ΓTM 按定义满足 Lie 导数 (𝓛_w)g = 0，相应的 ∇w ∈ 𝖵𝖡(TM) 具有什么性质（Marsden 弹性力学基础 p99）
+> （已停用{old}）黎曼流形 (M,g) 上的无穷小 isometry w ∈ ΓTM 按定义满足 Lie 导数 (𝓛_w)g = 0，相应的 ∇w ∈ 𝖵𝖡(TM) 具有什么性质（Marsden 弹性力学基础 p99）
 	* （fiber-wise）反对称（注意「反」）
 	* 注：没完全理解，rmk6.17 中 w 角标在下、为反变张量记号，但 w 作为向量场应该是协变张量
 	* 2025-09-01 重构：原卡片正面重点不突出
@@ -148,7 +148,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	> 来源：Marsden 弹性力学基础 p99
 	* （fiber-wise）反对称（注意「反」）
 	* 注：没完全理解，rmk6.17 中 w 角标在下、为反变张量记号，但 w 作为向量场应该是协变张量
-* {old}# 光滑流形 M 上外微分不依赖于局部坐标系的定义：设 ω ∈ Ωᵏ(M)，dω(X₀,…,Xₖ) 的定义中包含多少项（Marsden 弹性力学基础 p107）
+> （已停用{old}）光滑流形 M 上外微分不依赖于局部坐标系的定义：设 ω ∈ Ωᵏ(M)，dω(X₀,…,Xₖ) 的定义中包含多少项（Marsden 弹性力学基础 p107）
 	* 
 * dω(X₀,…,Xₖ) 计算公式包含多少项（该公式不依赖于局部坐标系）{o7gd9e}
 	> （注）背景：光滑流形 M 上外微分，ω ∈ Ωᵏ(M)
@@ -178,7 +178,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* ⟨A(x),-⟩ ∈ TᵛM 满足 d⟨A(x),-⟩ = 0
 * X ∈ 𝖡𝖺𝗇 上的 potential operator A: X → X 与 Lagrange 力学的关系：Euler-Lagrange 方程对应与 A 有关的什么方程（Marsden 弹性力学基础 p112）{o7hf1e}
 	* A(x) = 0
-* {x}# potential operator 充要条件：设 X ∈ 𝖡𝖺𝗇 上有双线性型 ⟨-,-⟩（未必对称），（非线性）算子 A: X → X 满足 ∀ x,v,w ∈ X, ⟨DA(x)·v,w⟩ = ⟨DA(x)·w,v⟩，则论证 ∃L ∈ C¹(X), ∀ x,v ∈ X, dL(x)·v = ⟨A(x),v⟩ 过程中考察了哪个微分形式（Marsden 弹性力学基础 p112）
+> （已停用{x}）potential operator 充要条件：设 X ∈ 𝖡𝖺𝗇 上有双线性型 ⟨-,-⟩（未必对称），（非线性）算子 A: X → X 满足 ∀ x,v,w ∈ X, ⟨DA(x)·v,w⟩ = ⟨DA(x)·w,v⟩，则论证 ∃L ∈ C¹(X), ∀ x,v ∈ X, dL(x)·v = ⟨A(x),v⟩ 过程中考察了哪个微分形式（Marsden 弹性力学基础 p112）
 	* 
 * ϕ ∈ 𝖣𝗂𝖿𝖿(B,S) 保定向，则 y ∈ ΓTS 的 Piola 变换 Y ∈ ΓTB 定义为（Marsden 弹性力学基础 p117）{o7he9d}
 	* ι(Y)dV = ϕ^*(ι(y)dv)
@@ -218,7 +218,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 * 无穷维流形：设 π: E → M, ρ: F → N 为 C^∞ 向量丛，r ≤ k，则 Cₖʳ(E,F) 作为无穷维向量丛，其 base manifold 为（Marsden 弹性力学基础 p170）{o7m872}
 	* Cᵏ(M,N)
 	* 即：Cₖʳ(E,F) → Cᵏ(M,N) 为其 projection
-* {old}# 无穷维流形：设 M ∈ 𝖣𝗂𝖿𝖿_b（允许带边），N ∈ 𝖣𝗂𝖿𝖿，则 T[-]: Cᵏ(M,N) → Cₖʳ(TM,TN), ϕ ↦ T[ϕ] 为无穷维向量丛 π: Cₖʳ(TM,TN) → Cᵏ(M,N) 的 section（即 T[-] ∈ ΓCₖʳ(TM,TN)），其中 r 通常取什么数（Marsden 弹性力学基础 p171）
+> （已停用{old}）无穷维流形：设 M ∈ 𝖣𝗂𝖿𝖿_b（允许带边），N ∈ 𝖣𝗂𝖿𝖿，则 T[-]: Cᵏ(M,N) → Cₖʳ(TM,TN), ϕ ↦ T[ϕ] 为无穷维向量丛 π: Cₖʳ(TM,TN) → Cᵏ(M,N) 的 section（即 T[-] ∈ ΓCₖʳ(TM,TN)），其中 r 通常取什么数（Marsden 弹性力学基础 p171）
 	* 
 * T[-] ∈ ΓCₖʳ(TM,TN)，其中 r 通常取什么数{o7m874}
 	> 具体含义：T[-]: Cᵏ(M,N) → Cₖʳ(TM,TN), ϕ ↦ T[ϕ] 为无穷维向量丛 π: Cₖʳ(TM,TN) → Cᵏ(M,N) 的 section
@@ -234,7 +234,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	> 来源：Marsden 弹性力学基础 p171
 	* C^∞
 	* 注（无需重读）：之后书上在讨论其切映射 T[T[-]]: Cᵏ(M,TN) → Cₖʳ(TM,TTN)，其表达式涉及 TTN 上的 canonical flipping
-* {old}# 无穷维流形：设 M ∈ 𝖣𝗂𝖿𝖿_b（允许带边），N ∈ 𝖣𝗂𝖿𝖿，则 Cₖʳ(TM,TN) 与 Cᵏ(M,TN)（均可作为 Cᵏ(M,N) 上的向量丛）都是特定范畴内的态射集合，二者所在范畴分别为（参考 Marsden 弹性力学基础 p171）
+> （已停用{old}）无穷维流形：设 M ∈ 𝖣𝗂𝖿𝖿_b（允许带边），N ∈ 𝖣𝗂𝖿𝖿，则 Cₖʳ(TM,TN) 与 Cᵏ(M,TN)（均可作为 Cᵏ(M,N) 上的向量丛）都是特定范畴内的态射集合，二者所在范畴分别为（参考 Marsden 弹性力学基础 p171）
 	* Cₖʳ(TM,TN) = Cₖʳ-𝖵𝖡(TM,TN)
 	* Cᵏ(M,TN) = Cᵏ-𝖬𝖺𝗇(M,TN)
 	* 2026-04-13 重构正面
@@ -281,7 +281,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 		* 注：用到 A 对称性，否则应写为 (∂f(A)/∂A)ᵀ = …
 	* 注（无需重读）：源于 Marsden 弹性力学基础 p221 ∂Ψ(C)/∂C 计算结果
 	* 注（无需重读）：严格证明可能还要考虑 f(tr(A),tr(A²),…,tr(Aⁿ)) 形式是否仍对各分量可微
-* {x}# 记号位置：p177 η,N（非粗体）单位质量熵，θ,Θ 绝对温度；p178 自由能 Ψ = E - TS（包含动能）
+> （已停用{x}）记号位置：p177 η,N（非粗体）单位质量熵，θ,Θ 绝对温度；p178 自由能 Ψ = E - TS（包含动能）
 	* S p136 second Piola-Kirchoff tensor
 	* R p143 单位质量热源
 	* D p144 提到在 sec1.3 定义
@@ -307,7 +307,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 * 弹性体 material form，应力公式 S^♭ = λ(tr E)G + 2μE 成立的两个前提（Marsden 弹性力学基础 p223）{o7o844}
 	* S 线性依赖于 E
 	* 介质各向同性
-* {old}# 弹性体 material form，应力公式 S^♭ = λ(tr E)G + 2μE 成立时，弹性张量分量 𝖢ᴵᴶᴷᴸ = [?]（Marsden 弹性力学基础 p223）
+> （已停用{old}）弹性体 material form，应力公式 S^♭ = λ(tr E)G + 2μE 成立时，弹性张量分量 𝖢ᴵᴶᴷᴸ = [?]（Marsden 弹性力学基础 p223）
 	* 2025-09-24 重构正面
 * 弹性张量分量 𝖢ᴵᴶᴷᴸ = [?]{o7o846}
 	> 设定：弹性体 material form，应力公式 S^♭ = λ(tr E)G + 2μE 成立情形
@@ -337,7 +337,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* 注：似乎正负号无关紧要？
 * 弹性、电磁、规范理论的场 可统一描述为 fiber bundle π: E → B；对弹性力学（材料流形 B、空间流形 S）取 E = [?]（Marsden 弹性力学基础 p275）{o83h30}
 	* E = B × S
-* {x}# 弹性、电磁、规范理论的场 可统一描述为 fiber bundle π: E → B，为讨论简便可假定 E 具有 splitting (connection)：∀p ∈ Eₓ = π⁻¹(X)，存在投影映射 ℙₚ: [?1] → [?2]；这可推出哪个直和分解 [?3]（Marsden 弹性力学基础 p276）
+> （已停用{x}）弹性、电磁、规范理论的场 可统一描述为 fiber bundle π: E → B，为讨论简便可假定 E 具有 splitting (connection)：∀p ∈ Eₓ = π⁻¹(X)，存在投影映射 ℙₚ: [?1] → [?2]；这可推出哪个直和分解 [?3]（Marsden 弹性力学基础 p276）
 	* ℙₚ: TₚE → TₚEₓ
 	* TₚE = TₚEₓ ⊕ TₓB
 * 弹性、电磁、规范理论的场 可统一描述为 fiber bundle π: E → B，为讨论简便可假定 E 具有 splitting (connection)：存在投影映射 ℙ ∈ [?1]；这可推出向量丛的直和分解 [?2]（Marsden 弹性力学基础 p276）{o83h32}
@@ -350,14 +350,14 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* J¹(E) = π⁻¹TᵛB ⊗ VE
 	* 张量积按 E 上向量丛进行，最后结果视为 B 上纤维丛
 	* 注：记得 F ∈ 𝖵𝖾𝖼(TₓB, Tᵩ₍ₓ₎Eₓ) 即可推出该形式
-* {x}# 纤维丛：对 fiber bundle π: E → B（假设有 splitting），φ ∈ ΓE 的 first jet（相当于一阶 Taylor 展开）j¹(φ) ∈ ΓJ¹(E) 的给出方式（我按向量丛运算给出的版本，基于 Marsden 弹性力学基础 p276）
+> （已停用{x}）纤维丛：对 fiber bundle π: E → B（假设有 splitting），φ ∈ ΓE 的 first jet（相当于一阶 Taylor 展开）j¹(φ) ∈ ΓJ¹(E) 的给出方式（我按向量丛运算给出的版本，基于 Marsden 弹性力学基础 p276）
 	* φ ∈ 𝖬𝖺𝗇(B,E)
 	* T[φ] ∈ 𝖵𝖡(TB,TE)
 	* 复合运算得 𝖵𝖡(π⁻¹TB,VE) 元素
 		* （无需回忆）用到 𝖵𝖡(π⁻¹TB,TB) 和 splitting ℙ ∈ 𝖵𝖡(TE,VE)
 		* 注：回忆起这里有前后两个复合运算应该就差不多了
 	* 该元素即 ∈ Γ(π⁻¹TᵛB ⊗ VE) = ΓJ¹(E)
-* {old}# 纤维丛：对 fiber bundle π: E → B（假设有 splitting），为给出 first jet 映射 j¹: ΓE → ΓJ¹(E)（相当于一阶 Taylor 展开），我首先如何转换 ΓE 和 ΓJ¹(E)（基于 Marsden 弹性力学基础 p276）
+> （已停用{old}）纤维丛：对 fiber bundle π: E → B（假设有 splitting），为给出 first jet 映射 j¹: ΓE → ΓJ¹(E)（相当于一阶 Taylor 展开），我首先如何转换 ΓE 和 ΓJ¹(E)（基于 Marsden 弹性力学基础 p276）
 	* 2025-07-26 重构正面
 * 为给出 j¹: ΓE → ΓJ¹(E)，我先如何转换 ΓE 和 ΓJ¹(E)（提示：J¹(E) = π⁻¹TᵛB ⊗ VE）{o83h38}
 	> 设定：fiber bundle π: E → B，假设有 splitting
@@ -369,7 +369,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 * 纤维丛：对 fiber bundle π: E → B（假设有 splitting），φ ∈ ΓE = 𝖣𝗂𝖿𝖿(B,E)，为用 T[φ] ∈ 𝖵𝖡(TB,TE) 给出 j¹(φ) ∈ 𝖵𝖡(π⁻¹TB,VE)，需复合哪两个映射（基于 Marsden 弹性力学基础 p276）{o83h3a}
 	* （定义 π⁻¹TB 时用到的）𝖵𝖡(π⁻¹TB,TB) 中的元素
 	* splitting ℙ ∈ 𝖵𝖡(TE,VE)
-* {x}# 无穷维流形：对 fiber bundle π: E → B，有 TΓE = Γ`\dot`E，其中 `\dot`E 在 X ∈ B 处的 fiber 具有哪些分量、分别位于什么空间（Marsden 弹性力学基础 p276）
+> （已停用{x}）无穷维流形：对 fiber bundle π: E → B，有 TΓE = Γ`\dot`E，其中 `\dot`E 在 X ∈ B 处的 fiber 具有哪些分量、分别位于什么空间（Marsden 弹性力学基础 p276）
 	* (φ(X),v)
 	* φ(X) ∈ Eₓ（无需回忆：注意 E 未必向量丛，从而 Eₓ 未必向量空间）
 	* v ∈ Tᵩ₍ₓ₎Eₓ（无需回忆：注意 φ 变化时该空间也有变化）
@@ -377,13 +377,13 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* TΓE = ΓVE
 	* 回忆((na1i8a))VE = ker T[π] ⊂ TE，本为 E 上的向量丛，这里视为 B 上的纤维丛
 	* 注：VE 是我的记号，在书中的记号为 `\dot`E
-* {x}# 弹性力学可描述为 fiber bundle π: E → B，可定义 Lagrangian density 𝓛 ∈ C^∞(Ξ)，相应纤维丛 Ξ 在 X ∈ B 处的 fiber 具有哪些分量（Marsden 弹性力学基础 p277）
+> （已停用{x}）弹性力学可描述为 fiber bundle π: E → B，可定义 Lagrangian density 𝓛 ∈ C^∞(Ξ)，相应纤维丛 Ξ 在 X ∈ B 处的 fiber 具有哪些分量（Marsden 弹性力学基础 p277）
 	* (φ(X),v,F)
 * 弹性力学可描述为 fiber bundle π: E → B，可定义 Lagrangian density 𝓛 ∈ C^∞(Ξ)，其中 Ξ = [?2]，其元素在局部坐标下表示的 4 个分量 [?1]（Marsden 弹性力学基础 p277）{o83n3c}
 	* (X,φ,v,F)
 	* Ξ = VE ⊕ J¹(E)
 		* 直和按 E 上 vector bundle 理解，之后视为 B 上 fiber bundle
-* {x}# 弹性力学可描述为 fiber bundle π: E → B，可定义 Lagrangian density 𝓛 ∈ C^∞(Ξ)，相应纤维丛 Ξ 上点形如 (X,φ(X),v,F)，其中 F ∈ [?1]，常见选取 F = [?2]（Marsden 弹性力学基础 p277）
+> （已停用{x}）弹性力学可描述为 fiber bundle π: E → B，可定义 Lagrangian density 𝓛 ∈ C^∞(Ξ)，相应纤维丛 Ξ 上点形如 (X,φ(X),v,F)，其中 F ∈ [?1]，常见选取 F = [?2]（Marsden 弹性力学基础 p277）
 	* F ∈ 𝖵𝖾𝖼(TₓB,Tᵩ₍ₓ₎Eₓ)
 	* F = Dφ = Tₓ[φ]
 * 弹性力学描述为 fiber bundle π: E → B，可定义 Lagrangian L ∈ C^∞(T𝓒)，其中 𝓒 = [?1]，不可压情形 𝓒ᵥₒₗ = [?2]（Marsden 弹性力学基础 p277,p279）{o83n3e}
@@ -391,7 +391,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* 𝓒ᵥₒₗ = { φ ∈ ΓE | J(φ) = 1 }，加上不可压条件即可
 	* 注（仅重读）：p280 T𝓒ᵥₒₗ = { V ∈ T𝓒 | div(V∘ϕ⁻¹) = 0 }
 		* 在流体里是常见的无散度条件；我推测其推导与((o83f4c))SL(n) 对应的李代数 𝔰𝔩(n) 有关
-* {old}# 弹性力学描述为 fiber bundle π: E → B，为用 Lagrangian density 𝓛 ∈ C^∞(VE ⊕ J¹(E)) 给出 Lagrangian L: TΓE → ℝ，我的理解中先构造了 TΓE → ΓJ¹(E) 和 TΓE → ΓVE，具体方式（基于 Marsden 弹性力学基础 p277）
+> （已停用{old}）弹性力学描述为 fiber bundle π: E → B，为用 Lagrangian density 𝓛 ∈ C^∞(VE ⊕ J¹(E)) 给出 Lagrangian L: TΓE → ℝ，我的理解中先构造了 TΓE → ΓJ¹(E) 和 TΓE → ΓVE，具体方式（基于 Marsden 弹性力学基础 p277）
 	* TΓE → ΓJ¹(E) 来自二映射复合：投影 TΓE → ΓE, (φ,v) ↦ φ、first jet j¹: ΓE → ΓJ¹(E), φ ↦ (φ,Dφ)
 	* 同构映射 TΓE → ΓVE，见((o83n3a))
 	* 2026-07-28 重构题面+拆回忆点
