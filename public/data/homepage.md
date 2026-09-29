@@ -33,13 +33,15 @@
 配上基于间隔重复算法的复习计划，它们能帮助我把一些东西稳定地保存在长期记忆当中。
 
 保持这些记忆的成本其实不高：对于其中的每个记忆点，除开少数特别复杂的情况以外，
-我预计未来 20 年内它占用的总复习时间不会超过 10 分钟。
+我预计未来 20 年内，它占用的总复习时间不会超过 10 分钟。
 
+关于格式：每张抽认卡是一个折叠块，块里从第一个圆点（bullet point）往后是背面，也就是需要回忆的卡片答案；之前的内容都是卡片的正面，也就是题面。
+
+* srs-words srs-words2 srs-words3
+* srs-ml srs-tech srs-python srs-lean
 * srs-mathPhy srs-math2
 * srs-probability srs-hdp srs-smcm
 * srs-intro2fluid srs-cfd
 * srs-Marsden-intro2mechSym srs-elasticFound-Marsden
-* srs-ml srs-tech srs-python srs-lean
-* srs-words srs-words2 srs-words3
 
 license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
