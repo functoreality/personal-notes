@@ -441,9 +441,7 @@
 * ((n27k6o))用于 TRIZ 解搜索问题的可能性探讨
 * 其他学术用途
 	* 论文写作，包括((_n2e89d))翻译、润色文章并给出修改理由，((_n2e89g))提供学术写作用语例子，((_n2e89j))出题训练自己写作能力、并批改；{n2fk5d}
-		* 润色文章的提示词还有((_n2eb0r))
-		* ((_n8gd8x))全面的句式优化指令（精简内容、加强过渡、纠正错误、替换词汇、添加细节、长短句转换），提示词长达近 200 词
-			* 精简内容，change the following paragraph as part of nature paper, language should be concise and precise （from 2025-04-06 lyp票圈）
+		* 语言风格、文章表达类见((qa3c3b))
 		* 标题选取，甚至方法命名用什么缩写((_n2eb14))
 		* AI 产品选择，((_n8gd9j))lyp：ChatGPT 逻辑顺、用词怪，Bard 不改逻辑但用词准，故考虑 ChatGPT 改一遍后再输入 Bard；导师建议向 ChatGPT 明确用词建议（不要用xx领域不习惯的词）
 		* 不限于文章表达，((_na6f5s))让其审稿，包括新颖性、选题重要性、加什么实验等

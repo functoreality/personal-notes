@@ -1,10 +1,15 @@
 x}# 英语单词 v2
 	* 
 * 单词含义：pertinent{o8jk2b}
-	* eg. Please keep your comments pertinent to the topic under discussion.
+	* eg. Please keep your comments pertinent to the [topic] under discussion.
 	* (formal) 有关的；恰当的；相宜的 appropriate to a particular situation
 		* 同义词： relevant
 	* 注：bing 能搜到 pertain 和 pertinent 的区别
+* 单词含义：pertain，pertinent{qa4e4h}
+	* The restrictions he imposed pertained to the type and height of [buildings] and the activities for which they could be used.
+		* 与…相关；属于；适用（于）
+	* Please keep your comments pertinent to the [topic] under discussion.
+		* (formal) 有关的；恰当的；相宜的；同义词：relevant
 * 单词读音（重音，名词、动词）：discourse{o8jk2o}
 	* 名词读作/'dɪskɔːs/，动词读作/dɪs'kɔːs/
 * 单词含义：discourse{o8jk2q}

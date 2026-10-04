@@ -1,3 +1,5 @@
+* （备用）AI 用于科研，结果的科学价值需领域人士判断，模型可能仅因结果新且困难就过度兴奋
+	* [2026-10-02](https://mp.weixin.qq.com/s/ZUDo97aYMaYPfFF-WuX8Ig)
 * Truman AI 操盘手案例拆解，确认构建所用要素可从当前笔记框架推出；{_q9g96l}
 	* AI 原始分析文档 `orig/agent-reports/useAI-case_study-truman_interviewer/rearrange-fit_note_framework.md`
 		> created on 2026-09-13 by Codex + GPT-5.6-Sol-high

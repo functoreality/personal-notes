@@ -599,7 +599,7 @@ n5oj10}单词含义：glucose
 	* eg. an art exposition
 		* 展览会;博览会
 * 单词含义：pertain{o6be4z}
-	* eg. The restrictions he imposed pertained to the type and height of buildings and the activities for which they could be used.
+	* eg. The restrictions he imposed pertained to the type and height of [buildings] and the activities for which they could be used.
 	* 与…相关；属于；适用（于）
 	* 注：bing 能搜到 pertain 和 pertinent 的区别
 * 介词使用：the laws pertaining [?] adoption{o6be57}
