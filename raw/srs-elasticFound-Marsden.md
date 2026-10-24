@@ -131,7 +131,7 @@ x}# Marsden 弹性力学基础（Mathematical Foundations of Elasticity）
 	* lj 分量缩并
 * 黎曼流形 (M,g) 上的 scalar 曲率张量如何由 Ricci 曲率张量 Rᵢⱼ 得到（Marsden 弹性力学基础 p80）{o7fe6m}
 	* R = gⁱʲRᵢⱼ
-* Rˡᵢⱼₖ 中的关键角标：计算公式 [?1] 正 [?2] 负，导出 Rᵢⱼ 时为 [?3,4] 缩并{p74i1d}
+* Rˡᵢⱼₖ 中的关键「角标」：计算公式 [?1] 正 [?2] 负，导出 Rᵢⱼ 时为 [?3,4] 缩并{p74i1d}
 	> 设定：黎曼流形 (M,g) 上曲率张量 R 在局部坐标 {xⁱ} 下的相关公式
 	> 来源：基于 Marsden 弹性力学基础 p80
 	* j, k

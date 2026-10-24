@@ -402,7 +402,7 @@ x}# 概率、随机过程、统计
 	* pₜ(x|y) 相同的 SDE 对应的 reverse ODE 与该流匹配速度场一致((q4lh36))，故常速度外推同样成立
 	* 该 SDE 满足 σₜ = at, 计算得 g(t) = a√(2t)
 	* 另：在((q4lh38))中解方程 2σₜ²/g(t)²t = 1 亦可，结论相同
-* rectified flow 引入动机，针对流匹配-OT 的什么缺点{q5199v}
+* rectified flow 引入动机，针对流匹配-OT 的什么缺点（直接+间接）{q5199v}
 	* 流匹配-OT 中尽管条件轨迹 vₜ(x|y) 是直线，但 vₜ(x) = 𝔼vₜ(x|y) 可能很曲折
 	* 导致推理 ODE 所需时间步长小
 	* [src](https://mp.weixin.qq.com/s/eMqIPCI_ytOB8zx_Kwo6vQ)
